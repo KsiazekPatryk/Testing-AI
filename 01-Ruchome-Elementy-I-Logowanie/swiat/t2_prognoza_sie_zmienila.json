@@ -1,0 +1,11 @@
+{
+  "_opis": "Sobota 11:30. Burza przesunęła się na 13:00, ktoś kupił ostatnie lody, router wybrał inny sklep, a polityka dla produktów chłodzonych dostała nową wersję.",
+  "czas_zapytania": "2026-10-17T11:30:00+02:00",
+  "pogoda": {"zrodlo": "meteo-api", "pobrano": "2026-10-17T11:30:00+02:00", "burza_od": "13:00", "dostepna": true},
+  "magazyn": {"sklep": "Wola-02", "migawka": "inv-2026-10-17T11:25", "braki": ["lody waniliowe 1 l"]},
+  "kierowca": {"id": "DRV-17", "status": "w drodze do sklepu"},
+  "obietnica_dostawy": {"okno_od": "12:45", "okno_do": "13:30", "silnik_trasowania": "router-v4.2"},
+  "polityka": {"wersja": "chlodzone-v4", "chlodzone_w_deszczu": false},
+  "lokalizacja": {"strefa": "Warszawa-Wola", "dzielnica": "Ulrychów"},
+  "zamowienie": {"id": "ZAM-5521", "chlodzone": true}
+}

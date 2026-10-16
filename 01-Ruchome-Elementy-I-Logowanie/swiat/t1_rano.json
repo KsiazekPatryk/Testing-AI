@@ -1,0 +1,11 @@
+{
+  "_opis": "Sobota 9:00. Prognoza: burza od 15:00. Kierowca przydzielony, wszystko na stanie.",
+  "czas_zapytania": "2026-10-17T09:00:00+02:00",
+  "pogoda": {"zrodlo": "meteo-api", "pobrano": "2026-10-17T09:00:00+02:00", "burza_od": "15:00", "dostepna": true},
+  "magazyn": {"sklep": "Wola-01", "migawka": "inv-2026-10-17T08:55", "braki": []},
+  "kierowca": {"id": "DRV-17", "status": "w drodze do sklepu"},
+  "obietnica_dostawy": {"okno_od": "13:00", "okno_do": "14:00", "silnik_trasowania": "router-v4.2"},
+  "polityka": {"wersja": "chlodzone-v3", "chlodzone_w_deszczu": true},
+  "lokalizacja": {"strefa": "Warszawa-Wola", "dzielnica": "Ulrychów"},
+  "zamowienie": {"id": "ZAM-5521", "chlodzone": true}
+}

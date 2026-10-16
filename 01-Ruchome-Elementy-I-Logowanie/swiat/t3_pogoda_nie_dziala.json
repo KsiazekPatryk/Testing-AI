@@ -1,0 +1,11 @@
+{
+  "_opis": "Sobota 11:30, ale API pogody leży. Bot po cichu przechodzi na ścieżkę zapasową i dalej brzmi pewnie.",
+  "czas_zapytania": "2026-10-17T11:30:00+02:00",
+  "pogoda": {"zrodlo": "meteo-api", "pobrano": null, "burza_od": null, "dostepna": false},
+  "magazyn": {"sklep": "Wola-02", "migawka": "inv-2026-10-17T11:25", "braki": ["lody waniliowe 1 l"]},
+  "kierowca": {"id": "DRV-17", "status": "w drodze do sklepu"},
+  "obietnica_dostawy": {"okno_od": "12:45", "okno_do": "13:30", "silnik_trasowania": "router-v4.2"},
+  "polityka": {"wersja": "chlodzone-v4", "chlodzone_w_deszczu": false},
+  "lokalizacja": {"strefa": "Warszawa-Wola", "dzielnica": "Ulrychów"},
+  "zamowienie": {"id": "ZAM-5521", "chlodzone": true}
+}

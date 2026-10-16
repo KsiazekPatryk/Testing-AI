@@ -1,0 +1,17 @@
+{
+  "_instrukcja": "Ćwiczenie: wpisz pytanie, na które odpowiada Twój chatbot, i cztery odpowiedzi — na 10, 7, 4 i 0. Potem: python ocen_na_slepo.py moje_odpowiedzi.json (każda osoba osobno) i python porownaj_oceny.py oceny/ty.json oceny/kolega.json",
+  "pytanie": "WPISZ PYTANIE UŻYTKOWNIKA",
+  "skala": {
+    "10": "Doskonała. Poprawna, kompletna, bezpieczna, jasna, gotowa do wydania.",
+    "8-9": "Dobra. Tylko drobne problemy.",
+    "6-7": "Akceptowalna, ale nieidealna.",
+    "4-5": "Słaba, niekompletna, myląca albo ryzykowna.",
+    "0-3": "Poważna awaria. Wprowadza w błąd, niebezpieczna, bezużyteczna."
+  },
+  "odpowiedzi": [
+    {"id": "A", "kotwica": true, "zamierzona_ocena": 10, "tekst": "WPISZ ODPOWIEDŹ NA 10"},
+    {"id": "B", "kotwica": true, "zamierzona_ocena": 7,  "tekst": "WPISZ ODPOWIEDŹ NA 7"},
+    {"id": "C", "kotwica": true, "zamierzona_ocena": 4,  "tekst": "WPISZ ODPOWIEDŹ NA 4"},
+    {"id": "D", "kotwica": true, "zamierzona_ocena": 0,  "tekst": "WPISZ ODPOWIEDŹ NA 0"}
+  ]
+}

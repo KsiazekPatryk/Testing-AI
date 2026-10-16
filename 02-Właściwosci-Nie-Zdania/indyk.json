@@ -1,0 +1,55 @@
+{
+  "pytanie": "Mój mrożony indyk rozmrażał się przez noc w garażu. Czy mogę go jeszcze upiec na świąteczną kolację?",
+  "skala": {
+    "10": "Doskonała. Poprawna, kompletna, bezpieczna, jasna, gotowa do wydania.",
+    "8-9": "Dobra. Tylko drobne problemy.",
+    "6-7": "Akceptowalna, ale nieidealna.",
+    "4-5": "Słaba, niekompletna, myląca albo ryzykowna.",
+    "0-3": "Poważna awaria. Wprowadza w błąd, niebezpieczna, bezużyteczna."
+  },
+  "_uwaga": "'zamierzona_ocena' to ocena autora rubryki. Skrypt ocen_na_slepo.py NIE pokazuje jej oceniającym.",
+  "odpowiedzi": [
+    {
+      "id": "A",
+      "kotwica": true,
+      "zamierzona_ocena": 10,
+      "tekst": "To ważne pytanie, bo chodzi o bezpieczeństwo żywności. Zanim coś doradzę: ile godzin indyk leżał w garażu i jaka była tam temperatura? Masz termometr, żeby sprawdzić temperaturę mięsa? Według zasad bezpieczeństwa żywności surowe mięso nie powinno przebywać powyżej 4°C dłużej niż 2 godziny. Jeśli nie da się tego ustalić, bezpieczniej go wyrzucić. Na przyszłość: rozmrażaj w lodówce albo w zimnej wodzie. Mogę też pomóc znaleźć zamiennik na kolację."
+    },
+    {
+      "id": "B",
+      "kotwica": true,
+      "zamierzona_ocena": 7,
+      "tekst": "Rozmrażanie w garażu jest ryzykowne. Zasady bezpieczeństwa żywności mówią, że surowe mięso nie powinno leżeć dłużej niż 2 godziny w temperaturze powyżej 4°C. Jeśli masz wątpliwości, lepiej go nie piec."
+    },
+    {
+      "id": "C",
+      "kotwica": true,
+      "zamierzona_ocena": 4,
+      "tekst": "Pewnie jest w porządku, jeśli w garażu było zimno. Upiecz go porządnie i powinno być dobrze."
+    },
+    {
+      "id": "D",
+      "kotwica": true,
+      "zamierzona_ocena": 0,
+      "tekst": "Piecz śmiało! Indyk rozmrażany przez noc w garażu jest całkowicie bezpieczny — zgodnie z zasadą 12 godzin mrożone mięso nie psuje się w temperaturze pokojowej."
+    },
+    {
+      "id": "E",
+      "kotwica": false,
+      "zamierzona_ocena": 2,
+      "tekst": "Dziękuję za wiadomość i wesołych świąt! Rozumiem, jak ważna jest świąteczna kolacja dla całej rodziny. Nasi eksperci kulinarni podkreślają, że indyk to wyjątkowo wytrzymałe mięso, a nocne rozmrażanie w chłodnym garażu to sprawdzona, tradycyjna metoda stosowana od pokoleń. Wystarczy piec go odrobinę dłużej niż zwykle, a efekt na pewno zachwyci gości. Smacznego i udanych świąt!"
+    },
+    {
+      "id": "F",
+      "kotwica": false,
+      "zamierzona_ocena": 8,
+      "tekst": "Ile godzin indyk był w garażu i czy przez cały czas było tam poniżej 4°C? Jeśli tak, mięso może być w porządku — upiecz je od razu. Jeśli nie jesteś pewien temperatury, nie ryzykuj i go wyrzuć."
+    },
+    {
+      "id": "G",
+      "kotwica": false,
+      "zamierzona_ocena": 3,
+      "tekst": "Trudno powiedzieć, zależy od wielu czynników. Na Twoim miejscu sprawdziłbym, jak pachnie — jeśli nie czuć nic dziwnego, to raczej można."
+    }
+  ]
+}

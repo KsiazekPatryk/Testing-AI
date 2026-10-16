@@ -1,0 +1,11 @@
+{
+  "_opis": "Sobota 11:40. Wszystko jak w t2, ale kierowca anulował kurs. Okno dostawy jest nieaktualne do czasu przydzielenia nowego kierowcy.",
+  "czas_zapytania": "2026-10-17T11:40:00+02:00",
+  "pogoda": {"zrodlo": "meteo-api", "pobrano": "2026-10-17T11:40:00+02:00", "burza_od": "13:00", "dostepna": true},
+  "magazyn": {"sklep": "Wola-02", "migawka": "inv-2026-10-17T11:25", "braki": ["lody waniliowe 1 l"]},
+  "kierowca": {"id": "DRV-17", "status": "anulowany"},
+  "obietnica_dostawy": {"okno_od": "12:45", "okno_do": "13:30", "silnik_trasowania": "router-v4.2"},
+  "polityka": {"wersja": "chlodzone-v4", "chlodzone_w_deszczu": false},
+  "lokalizacja": {"strefa": "Warszawa-Wola", "dzielnica": "Ulrychów"},
+  "zamowienie": {"id": "ZAM-5521", "chlodzone": true}
+}

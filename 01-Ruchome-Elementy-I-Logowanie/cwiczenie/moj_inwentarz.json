@@ -1,0 +1,15 @@
+{
+  "_instrukcja": "Tu wpisz SWOJĄ funkcję AI. Dla każdego ruchomego elementu podaj grupę (losowosc / stan / platforma) i ścieżkę klucza w Twoim logu JSONL (np. 'request.model'). Jeśli elementu nie logujesz, wpisz null. Potem: python cwiczenie/sprawdz_pokrycie.py cwiczenie/moj_inwentarz.json sciezka/do/twojego_logu.jsonl",
+  "funkcja": "NAZWA TWOJEJ FUNKCJI",
+  "elementy": [
+    {"element": "model i jego wersja",            "grupa": "platforma", "pole_w_logu": null},
+    {"element": "prompt systemowy (wersja)",      "grupa": "platforma", "pole_w_logu": null},
+    {"element": "temperatura / parametry",        "grupa": "losowosc",  "pole_w_logu": null},
+    {"element": "seed",                           "grupa": "losowosc",  "pole_w_logu": null},
+    {"element": "dane / migawka źródeł",          "grupa": "stan",      "pole_w_logu": null},
+    {"element": "wyniki narzędzi",                "grupa": "stan",      "pole_w_logu": null},
+    {"element": "stan użytkownika",               "grupa": "stan",      "pole_w_logu": null},
+    {"element": "czas zapytania",                 "grupa": "stan",      "pole_w_logu": null},
+    {"element": "ścieżka wykonania / fallback",   "grupa": "stan",      "pole_w_logu": null}
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "_instrukcja": "Inwentarz ruchomych elementów bota 'zakupy przed burzą'. 'pole_w_logu' to ścieżka klucza we wpisie logu (np. 'stan.pogoda.burza_od'). null = wiemy, że element istnieje, ale go nie logujemy.",
+  "funkcja": "Chatbot sklepu: czy zdążymy przed burzą?",
+  "elementy": [
+    {"element": "temperatura modelu",               "grupa": "losowosc",  "pole_w_logu": "losowosc.temperatura"},
+    {"element": "seed",                             "grupa": "losowosc",  "pole_w_logu": "losowosc.seed"},
+    {"element": "prognoza pogody (migawka)",        "grupa": "stan",      "pole_w_logu": "stan.pogoda.burza_od"},
+    {"element": "kiedy pobrano prognozę",           "grupa": "stan",      "pole_w_logu": "stan.pogoda.pobrano"},
+    {"element": "stan magazynu (migawka)",          "grupa": "stan",      "pole_w_logu": "stan.magazyn.migawka"},
+    {"element": "sklep wybrany przez router",       "grupa": "stan",      "pole_w_logu": "stan.magazyn.sklep"},
+    {"element": "status kierowcy",                  "grupa": "stan",      "pole_w_logu": "stan.kierowca.status"},
+    {"element": "obietnica dostawy (okno)",         "grupa": "stan",      "pole_w_logu": "stan.obietnica_dostawy.okno_do"},
+    {"element": "wersja silnika trasowania",        "grupa": "stan",      "pole_w_logu": "stan.obietnica_dostawy.silnik_trasowania"},
+    {"element": "wersja polityki chłodzonych",      "grupa": "stan",      "pole_w_logu": "stan.polityka.wersja"},
+    {"element": "lokalizacja klienta",              "grupa": "stan",      "pole_w_logu": "stan.lokalizacja.strefa"},
+    {"element": "wyniki/błędy narzędzi",            "grupa": "stan",      "pole_w_logu": "stan.wyniki_narzedzi.pogoda"},
+    {"element": "ścieżka wykonania (główna/zapasowa)", "grupa": "stan",   "pole_w_logu": "sciezka"},
+    {"element": "profil użytkownika / personalizacja", "grupa": "stan",   "pole_w_logu": null},
+    {"element": "flagi funkcji (feature flags)",    "grupa": "stan",      "pole_w_logu": null},
+    {"element": "liczba ponowień wywołań narzędzi", "grupa": "stan",      "pole_w_logu": "stan.ponowienia"},
+    {"element": "identyfikator modelu u dostawcy",  "grupa": "platforma", "pole_w_logu": "platforma.model_id"},
+    {"element": "system_fingerprint",               "grupa": "platforma", "pole_w_logu": "platforma.system_fingerprint"},
+    {"element": "wersja promptu systemowego",       "grupa": "platforma", "pole_w_logu": "platforma.wersja_promptu"},
+    {"element": "wersja filtrów bezpieczeństwa",    "grupa": "platforma", "pole_w_logu": null},
+    {"element": "region / ścieżka sprzętowa",       "grupa": "platforma", "pole_w_logu": null}
+  ]
+}
