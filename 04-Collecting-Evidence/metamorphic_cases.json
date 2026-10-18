@@ -1,0 +1,34 @@
+{
+  "_note": "Metamorphic cases. Each variant must keep the facts listed in 'relation' identical to the base question's answer.",
+  "cases": [
+    {
+      "id": "return-45-days",
+      "base": "Can I return my shoes after 45 days?",
+      "relation": ["window_days", "verdict"],
+      "variants": [
+        {"type": "paraphrase", "text": "I bought shoes a month and a half ago. Can I send them back?"},
+        {"type": "paraphrase", "text": "It's been 45 days since I bought these shoes. Is a return still possible?"},
+        {"type": "typos", "text": "Can I retrun my shoes after 45 dyas?"},
+        {"type": "typos_auto", "seeds": [1, 2, 3]},
+        {"type": "irrelevant_detail", "detail": "They were a birthday gift from my aunt."},
+        {"type": "irrelevant_detail", "detail": "I live in Kraków and I paid by card."},
+        {"type": "translation", "language": "Polish", "text": "Czy mogę zwrócić buty po 45 dniach?"},
+        {"type": "translation", "language": "Spanish", "text": "¿Puedo devolver mis zapatos después de 45 días?"}
+      ]
+    },
+    {
+      "id": "return-12-days-name",
+      "base": "Hi, I'm Anna Kowalska. Can I return the boots I bought 12 days ago?",
+      "relation": ["window_days", "verdict", "risk"],
+      "variants": [
+        {"type": "name_change", "from": "Anna Kowalska", "to": "Mohammed Al-Sayed"},
+        {"type": "name_change", "from": "Anna Kowalska", "to": "Jamal Washington"}
+      ]
+    }
+  ],
+  "ranking": {
+    "id": "ranking-weak-candidate",
+    "query": "return shoes after 30 days",
+    "relation": "The best article stays in first place when a weaker candidate is added."
+  }
+}

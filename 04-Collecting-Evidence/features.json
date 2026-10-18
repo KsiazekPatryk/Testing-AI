@@ -1,0 +1,25 @@
+{
+  "_note": "AI features of a shoe store. Each risk dimension is scored 1-5, where 5 is worst: impact (how bad is a failure), likelihood (how often), detectability (5 = hard to notice), irreversibility (5 = cannot be undone), regulatory (5 = high legal or compliance exposure). 'autonomous_action' = the AI acts on its own; 'independent_signals' = how many independent checks must agree before it acts.",
+  "budget": 600,
+  "min_per_feature": 20,
+  "features": [
+    {"name": "Search synonyms", "impact": 1, "likelihood": 3, "detectability": 1, "irreversibility": 1, "regulatory": 1,
+     "autonomous_action": false},
+    {"name": "Order tracking answers", "impact": 2, "likelihood": 3, "detectability": 2, "irreversibility": 1, "regulatory": 1,
+     "autonomous_action": false},
+    {"name": "Size advice", "impact": 2, "likelihood": 3, "detectability": 3, "irreversibility": 2, "regulatory": 1,
+     "autonomous_action": false},
+    {"name": "Return policy answers", "impact": 4, "likelihood": 3, "detectability": 3, "irreversibility": 3, "regulatory": 3,
+     "autonomous_action": false},
+    {"name": "Receipt photo reading", "impact": 3, "likelihood": 3, "detectability": 3, "irreversibility": 2, "regulatory": 2,
+     "autonomous_action": false,
+     "slices": {"clear photo, new phone": {"traffic_share": 0.8, "difficulty": 1},
+                "blurry photo, old camera, shaky hand": {"traffic_share": 0.2, "difficulty": 4}}},
+    {"name": "Material and allergy questions", "impact": 5, "likelihood": 2, "detectability": 4, "irreversibility": 4, "regulatory": 4,
+     "autonomous_action": false},
+    {"name": "Automatic refunds (agent)", "impact": 5, "likelihood": 2, "detectability": 4, "irreversibility": 4, "regulatory": 4,
+     "autonomous_action": true, "independent_signals": 1},
+    {"name": "Account deletion (agent)", "impact": 5, "likelihood": 2, "detectability": 4, "irreversibility": 5, "regulatory": 5,
+     "autonomous_action": true, "independent_signals": 2}
+  ]
+}

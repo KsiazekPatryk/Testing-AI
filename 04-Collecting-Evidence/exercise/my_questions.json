@@ -1,0 +1,30 @@
+{
+  "_instructions": "The exercise from the post: take three questions your system answers and prepare two transformations for each: a paraphrase and a version with typos. 'facts' are regular expressions for the facts every answer must keep (case-insensitive). Leave 'typos' empty to generate typos automatically. Leave 'answers' empty to use the local assistant, or paste your own system's answers to check them instead.",
+  "typo_seed": 1,
+  "questions": [
+    {
+      "id": "boots-20-days",
+      "question": "Can I return boots I bought 20 days ago?",
+      "facts": ["30[- ]day", "still within|you can return"],
+      "paraphrase": "I got these boots 20 days ago. Is it still possible to send them back?",
+      "typos": "",
+      "answers": {}
+    },
+    {
+      "id": "sandals-two-months",
+      "question": "Can I return sandals I bought 2 months ago?",
+      "facts": ["30[- ]day", "outside|too late|past it"],
+      "paraphrase": "It has been two months since I bought these sandals. Can I return them?",
+      "typos": "Can I retrun sandals I bougth 2 months ago?",
+      "answers": {}
+    },
+    {
+      "id": "sneakers-exchange",
+      "question": "Can I exchange my sneakers for a bigger size? I bought them 10 days ago.",
+      "facts": ["30[- ]day", "still within|you can return"],
+      "paraphrase": "These sneakers I got as a gift 10 days ago are too small. Can I swap them for a bigger size?",
+      "typos": "",
+      "answers": {}
+    }
+  ]
+}

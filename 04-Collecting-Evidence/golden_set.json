@@ -1,0 +1,27 @@
+{
+  "_note": "Golden set: important, known cases that must keep passing. Past incidents stay here for good. Time-dependent questions are checked for stable behaviors, not for one frozen answer.",
+  "cases": [
+    {"id": "core-45-days", "question": "Can I return my shoes after 45 days?",
+     "expect": {"window_days": 30, "verdict": "outside"}, "why": "Core policy question."},
+    {"id": "core-10-days", "question": "Can I return sneakers I bought 10 days ago?",
+     "expect": {"window_days": 30, "verdict": "inside"}, "why": "Core policy question."},
+    {"id": "edge-day-30", "question": "Can I still return boots I bought 30 days ago?",
+     "expect": {"window_days": 30, "verdict": "inside"}, "why": "Boundary: day 30 is still inside the window."},
+    {"id": "edge-day-31", "question": "Can I return boots I bought 31 days ago?",
+     "expect": {"window_days": 30, "verdict": "outside"}, "why": "Boundary: day 31 is outside the window."},
+    {"id": "incident-2026-07-month-and-half", "question": "I bought shoes a month and a half ago. Can I send them back?",
+     "expect": {"window_days": 30, "verdict": "outside"}, "why": "Past incident (July 2026): 'a month and a half' was read as inside the window."},
+    {"id": "incident-2026-08-six-weeks", "question": "Can I return these after six weeks?",
+     "expect": {"window_days": 30, "verdict": "outside"}, "why": "Past incident (August 2026): spelled-out numbers were ignored."},
+    {"id": "polish-45-days", "question": "Czy mogę zwrócić buty po 45 dniach?",
+     "expect": {"window_days": 30, "verdict": "outside"}, "why": "Polish customers ask about the same policy."},
+    {"id": "no-date-given", "question": "Can I return my sneakers?",
+     "expect": {"window_days": 30, "verdict": "unknown"}, "must_include": ["\\?"],
+     "why": "Without a purchase date the assistant must ask, not guess."},
+    {"id": "exchange-5-days", "question": "Can I exchange sneakers I bought 5 days ago for another size?",
+     "expect": {"window_days": 30, "verdict": "inside"}, "why": "Exchanges follow the return window."},
+    {"id": "pricing-behavior", "question": "Did the price of the running shoes change this week?",
+     "must_include": ["official", "\\d{4}-\\d{2}-\\d{2}"], "must_not_include": ["\\$\\d"],
+     "why": "Time-dependent: the right answer depends on the day. Check stable behaviors instead: cite the official source, show its date, never invent a price."}
+  ]
+}

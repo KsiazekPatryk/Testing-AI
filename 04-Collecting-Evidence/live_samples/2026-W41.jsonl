@@ -1,0 +1,12 @@
+{"id": "w41-01", "question": "Can I return running shoes I bought 3 weeks ago?", "expect": {"window_days": 30, "verdict": "inside"}}
+{"id": "w41-02", "question": "hi can i return boots after 40 days", "expect": {"window_days": 30, "verdict": "outside"}}
+{"id": "w41-03", "question": "I ordered sandals 2 days ago, can I send them back?", "expect": {"window_days": 30, "verdict": "inside"}}
+{"id": "w41-04", "question": "Is it possible to return shoes after two months?", "expect": {"window_days": 30, "verdict": "outside"}}
+{"id": "w41-05", "question": "Can I exchange my sneakers for a bigger size? Bought them 8 days ago.", "expect": {"window_days": 30, "verdict": "inside"}}
+{"id": "w41-06", "question": "Czy mogę zwrócić buty po 20 dniach?", "expect": {"window_days": 30, "verdict": "inside"}}
+{"id": "w41-07", "question": "Can I return my shoes? I don't remember when I bought them.", "expect": {"window_days": 30, "verdict": "unknown"}}
+{"id": "w41-08", "question": "Can I return slippers after 35 days?", "expect": {"window_days": 30, "verdict": "outside"}}
+{"id": "w41-09", "question": "Can I return these boots, I bought them 25 days ago", "expect": {"window_days": 30, "verdict": "inside"}}
+{"id": "w41-10", "question": "can i retrun shoes bought 5 days ago", "expect": {"window_days": 30, "verdict": "inside"}}
+{"id": "w41-11", "question": "Can I return heels after 50 days?", "expect": {"window_days": 30, "verdict": "outside"}}
+{"id": "w41-12", "question": "Can I send back shoes I got 14 days ago?", "expect": {"window_days": 30, "verdict": "inside"}}

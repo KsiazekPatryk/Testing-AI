@@ -1,0 +1,21 @@
+{
+  "_note": "Help-center articles for search.py. 'returns-policy' is the article that should rank first for return questions.",
+  "articles": [
+    {"id": "returns-policy", "title": "Returns policy",
+     "body": "You can return shoes within 30 days of purchase. Items must be unworn. Start a return from your order page."},
+    {"id": "shipping-times", "title": "Shipping times",
+     "body": "Standard shipping takes 2 to 4 business days. Orders over 50 dollars ship for free."},
+    {"id": "size-guide", "title": "Size guide",
+     "body": "Measure your foot in the evening. If you are between sizes, choose the larger one."},
+    {"id": "gift-cards", "title": "Gift cards",
+     "body": "Gift cards never expire and can be used for shoes, boots and accessories."},
+    {"id": "exchanges", "title": "Exchanges",
+     "body": "To exchange shoes for another size, start a return and place a new order."}
+  ],
+  "weak_candidates": [
+    {"id": "blog-sneaker-facts", "title": "10 fun facts about sneakers",
+     "body": "Sneakers got their name because rubber soles made them quiet."},
+    {"id": "promo-landing-page", "title": "Return season deals",
+     "body": "Return shoes return boots return sneakers after the holidays days days days with 30 percent off shoes shoes shoes."}
+  ]
+}
