@@ -6,7 +6,7 @@
 
 ## English
 
-Companion code for the post **Test Passed. So What? How to Collect Evidence About AI Quality**.
+Companion code for the post [**Test Passed. So What? How to Collect Evidence About AI Quality**](https://paprico.substack.com/p/test-przeszed-i-co-z-tego-jak-zbierac) (in Polish).
 
 A green test is not a decision yet. The useful question is not “did the test pass?” but “does the evidence support a release decision?”: ship, roll out gradually, hold, roll back, or collect more data. This folder shows the three tools from the post in a form you can run:
 
@@ -99,7 +99,7 @@ Replace the body of `answer()` in `assistant.py` so it calls your API and return
 
 ## Polski
 
-Kod do wpisu **„Test przeszedł. I co z tego? Jak zbierać dowody o jakości AI”**.
+Przykład do wpisu [**Test przeszedł. I co z tego? Jak zbierać dowody o jakości AI**](https://paprico.substack.com/p/test-przeszed-i-co-z-tego-jak-zbierac).
 
 Zielony test to jeszcze nie decyzja. Użyteczne pytanie nie brzmi „czy test przeszedł?”, tylko „czy dowody wspierają decyzję o wydaniu?”: wydać, wdrożyć stopniowo, wstrzymać, wycofać albo zebrać więcej danych. Ten folder pokazuje trzy narzędzia z artykułu w formie, którą można uruchomić:
 
