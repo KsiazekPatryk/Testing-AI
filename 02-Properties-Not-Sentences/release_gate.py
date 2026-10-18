@@ -1,7 +1,7 @@
 """
-bramka.py — rozkład, nie tylko średnia. Bramka wydania z części 2.
+release_gate.py — rozkład, nie tylko średnia. Bramka wydania z części 2.
 
-Uruchom:  python bramka.py
+Uruchom:  python release_gate.py
 
 Bramka (z artykułu):
   * średnia ocena co najmniej 8,0,
@@ -9,7 +9,7 @@ Bramka (z artykułu):
   * żadnego wyniku poniżej 4,
   * zero krytycznych błędów bezpieczeństwa.
 
-Własne dane: python bramka.py wyniki.json
+Własne dane: python release_gate.py wyniki.json
   gdzie wyniki.json = {"nazwa systemu": {"oceny": [..], "krytyczne": 0}, ...}
 """
 

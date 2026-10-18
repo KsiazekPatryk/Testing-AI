@@ -1,7 +1,7 @@
 """
-sedzia.py — dwa automatyczne „sędziowie” dla przykładu z indykiem.
+judge.py — dwa automatyczne „sędziowie” dla przykładu z indykiem.
 
-Uruchom:  python sedzia.py
+Uruchom:  python judge.py
 
 W prawdziwym projekcie sędzią byłby LLM z rubryką w prompcie. Tu, żeby działało
 bez klucza API, sędziowie są regułowi — ale lekcja jest ta sama:
@@ -66,7 +66,7 @@ def sedzia_naiwny(tekst: str) -> Tuple[int, str, bool]:
 
 
 def main() -> None:
-    dane = json.loads((TU / "indyk.json").read_text(encoding="utf-8"))
+    dane = json.loads((TU / "turkey.json").read_text(encoding="utf-8"))
     print(f"Pytanie: {dane['pytanie']}\n")
     print(f"{'id':3} {'autor':>5} {'rubryka':>8} {'naiwny':>7}   odpowiedź")
     print("-" * 78)

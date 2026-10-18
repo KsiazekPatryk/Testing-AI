@@ -17,10 +17,10 @@ Runs without an API key and without installing any packages (Python 3.9+). The c
 ### Run it
 
 ```bash
-python demo.py                              # the whole example, step by step
-python cwiczenie/sprawdz_pokrycie.py        # the exercise from the post
-python wyjasnij.py logi/rozmowy.jsonl 1 3   # compare any two log entries
-python -m unittest -v test_regresje         # regression tests
+python demo.py                                   # the whole example, step by step
+python exercise/check_coverage.py                # the exercise from the post
+python explain.py logs/conversations.jsonl 1 3   # compare any two log entries
+python -m unittest -v test_regressions           # regression tests
 ```
 
 ### What `demo.py` shows
@@ -38,11 +38,11 @@ python -m unittest -v test_regresje         # regression tests
 
 > Take one AI feature you work on and list every moving part that could change its answer: model, data, tools, user state, time. Then check how many of them you actually log.
 
-1. Run `python cwiczenie/sprawdz_pokrycie.py` and look at the reference result for the storm bot. Coverage is 16/21 elements. One element (“number of retries”) was believed to be logged, but it isn’t in the log.
-2. Open `cwiczenie/moj_inwentarz.json` and list the moving parts of **your** feature. For each one, give the key path in your JSONL log, for example `request.model`, or `null` if you don’t log it.
+1. Run `python exercise/check_coverage.py` and look at the reference result for the storm bot. Coverage is 16/21 elements. One element (“number of retries”) was believed to be logged, but it isn’t in the log.
+2. Open `exercise/my_inventory.json` and list the moving parts of **your** feature. For each one, give the key path in your JSONL log, for example `request.model`, or `null` if you don’t log it.
 3. Check the inventory against a real log:
    ```bash
-   python cwiczenie/sprawdz_pokrycie.py cwiczenie/moj_inwentarz.json path/to/your_log.jsonl
+   python exercise/check_coverage.py exercise/my_inventory.json path/to/your_log.jsonl
    ```
    The script doesn’t ask whether you *think* you log something. It checks whether it’s actually in the log.
 
@@ -50,13 +50,13 @@ python -m unittest -v test_regresje         # regression tests
 
 | File | Role |
 |---|---|
-| `swiat/t1…t4_*.json` | Snapshots of the world at different moments of the Saturday |
+| `world/t1…t4_*.json` | Snapshots of the world at different moments of the Saturday |
 | `bot.py` | The chatbot: tools, a deterministic verdict in code, the model puts the verdict into words, a full log entry |
 | `model.py` | A local fake LLM: non-deterministic, driven by temperature and seed |
-| `wyjasnij.py` | Compares two log entries and groups the differences: randomness / state / platform / path |
-| `cwiczenie/` | The moving-parts inventory and the log coverage checker |
-| `test_regresje.py` | Regression tests |
-| `logi/rozmowy.jsonl` | Created by `demo.py` |
+| `explain.py` | Compares two log entries and groups the differences: randomness / state / platform / path |
+| `exercise/` | The moving-parts inventory and the log coverage checker |
+| `test_regressions.py` | Regression tests |
+| `logs/conversations.jsonl` | Created by `demo.py` |
 
 ### Plugging in a real model (optional)
 
@@ -77,10 +77,10 @@ Działa bez klucza API i bez instalowania pakietów (Python 3.9+).
 ### Uruchom
 
 ```bash
-python demo.py                              # cały przykład krok po kroku
-python cwiczenie/sprawdz_pokrycie.py        # ćwiczenie z artykułu
-python wyjasnij.py logi/rozmowy.jsonl 1 3   # porównaj dowolne dwa wpisy z logu
-python -m unittest -v test_regresje         # testy regresyjne
+python demo.py                                   # cały przykład krok po kroku
+python exercise/check_coverage.py                # ćwiczenie z artykułu
+python explain.py logs/conversations.jsonl 1 3   # porównaj dowolne dwa wpisy z logu
+python -m unittest -v test_regressions           # testy regresyjne
 ```
 
 ### Co pokazuje `demo.py`
@@ -98,11 +98,11 @@ python -m unittest -v test_regresje         # testy regresyjne
 
 > Weź jedną funkcję AI, z którą pracujesz, i wypisz wszystkie ruchome elementy, które mogą zmienić jej odpowiedź: model, dane, narzędzia, stan użytkownika, czas. Potem sprawdź, ile z nich faktycznie logujesz.
 
-1. Uruchom `python cwiczenie/sprawdz_pokrycie.py` i zobacz wzorcowy wynik dla bota burzowego. Pokrycie wynosi 16/21 elementów. Jeden element („liczba ponowień”) zespół uważał za logowany, a w logu go nie ma.
-2. Otwórz `cwiczenie/moj_inwentarz.json` i wpisz ruchome elementy **swojej** funkcji. Dla każdego podaj ścieżkę klucza w swoim logu JSONL, na przykład `request.model`, albo `null`, jeśli go nie logujesz.
+1. Uruchom `python exercise/check_coverage.py` i zobacz wzorcowy wynik dla bota burzowego. Pokrycie wynosi 16/21 elementów. Jeden element („liczba ponowień”) zespół uważał za logowany, a w logu go nie ma.
+2. Otwórz `exercise/my_inventory.json` i wpisz ruchome elementy **swojej** funkcji. Dla każdego podaj ścieżkę klucza w swoim logu JSONL, na przykład `request.model`, albo `null`, jeśli go nie logujesz.
 3. Sprawdź inwentarz na prawdziwym logu:
    ```bash
-   python cwiczenie/sprawdz_pokrycie.py cwiczenie/moj_inwentarz.json sciezka/do/twojego_logu.jsonl
+   python exercise/check_coverage.py exercise/my_inventory.json sciezka/do/twojego_logu.jsonl
    ```
    Skrypt nie pyta, czy *myślisz*, że coś logujesz. Sprawdza, czy to naprawdę jest w logu.
 
@@ -110,13 +110,13 @@ python -m unittest -v test_regresje         # testy regresyjne
 
 | Plik | Rola |
 |---|---|
-| `swiat/t1…t4_*.json` | Migawki świata w różnych momentach soboty |
+| `world/t1…t4_*.json` | Migawki świata w różnych momentach soboty |
 | `bot.py` | Chatbot: narzędzia, deterministyczny werdykt w kodzie, model ubiera werdykt w słowa, pełny wpis do logu |
 | `model.py` | Lokalny, udawany LLM: niedeterministyczny, zależny od temperatury i seeda |
-| `wyjasnij.py` | Porównuje dwa wpisy z logu i grupuje różnice: losowość / stan / platforma / ścieżka |
-| `cwiczenie/` | Inwentarz ruchomych elementów i skrypt sprawdzający pokrycie logów |
-| `test_regresje.py` | Testy regresyjne |
-| `logi/rozmowy.jsonl` | Tworzony przez `demo.py` |
+| `explain.py` | Porównuje dwa wpisy z logu i grupuje różnice: losowość / stan / platforma / ścieżka |
+| `exercise/` | Inwentarz ruchomych elementów i skrypt sprawdzający pokrycie logów |
+| `test_regressions.py` | Testy regresyjne |
+| `logs/conversations.jsonl` | Tworzony przez `demo.py` |
 
 ### Podpięcie prawdziwego modelu (opcjonalnie)
 

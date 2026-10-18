@@ -4,9 +4,9 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-import porownaj_oceny
-from bramka import bramka
-from ocen_na_slepo import wolna_sciezka_wyniku
+import compare_ratings
+from release_gate import bramka
+from blind_rating import wolna_sciezka_wyniku
 
 
 class TestRegresje(unittest.TestCase):
@@ -31,14 +31,14 @@ class TestRegresje(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tymczasowy:
             katalog = Path(tymczasowy)
             arkusze = []
-            for nazwa, plik in (("a", "indyk.json"), ("b", "moje_odpowiedzi.json")):
+            for nazwa, plik in (("a", "turkey.json"), ("b", "my_answers.json")):
                 sciezka = katalog / f"{nazwa}.json"
                 sciezka.write_text(json.dumps({"plik": plik, "oceniajacy": nazwa, "oceny": {}}),
                                    encoding="utf-8")
                 arkusze.append(str(sciezka))
 
-            with patch("sys.argv", ["porownaj_oceny.py", *arkusze]), self.assertRaises(SystemExit):
-                porownaj_oceny.main()
+            with patch("sys.argv", ["compare_ratings.py", *arkusze]), self.assertRaises(SystemExit):
+                compare_ratings.main()
 
 
 if __name__ == "__main__":

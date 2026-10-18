@@ -17,12 +17,12 @@ import sys
 from pathlib import Path
 
 from bot import dopisz_do_logu, odpowiedz, wczytaj_swiat
-from wyjasnij import wyjasnij
+from explain import wyjasnij
 
 TU = Path(__file__).parent
 PYTANIE = "Czy zdążycie dowieźć moje zakupy na piknik, zanim zacznie się burza?"
-LOG = TU / "logi" / "rozmowy.jsonl"
-SWIATY = sorted((TU / "swiat").glob("t*.json"))
+LOG = TU / "logs" / "conversations.jsonl"
+SWIATY = sorted((TU / "world").glob("t*.json"))
 
 
 def naglowek(tekst: str) -> None:
@@ -59,15 +59,15 @@ def main() -> None:
     print(wyjasnij(runy[0], runy[1]))
 
     naglowek("KROK 4. Awaria, której nie widać (t3: API pogody nie działa)")
-    _, zdrowy = odpowiedz(PYTANIE, wczytaj_swiat(TU / "swiat" / "t2_prognoza_sie_zmienila.json"), seed=7)
-    _, chory = odpowiedz(PYTANIE, wczytaj_swiat(TU / "swiat" / "t3_pogoda_nie_dziala.json"), seed=7)
+    _, zdrowy = odpowiedz(PYTANIE, wczytaj_swiat(TU / "world" / "t2_forecast_changed.json"), seed=7)
+    _, chory = odpowiedz(PYTANIE, wczytaj_swiat(TU / "world" / "t3_weather_api_down.json"), seed=7)
     print(f"  Zdrowa ścieżka:     {zdrowy['odpowiedz']}")
     print(f"  Zdegradowana:       {chory['odpowiedz']}")
     print(f"  Ścieżka w logu:     {chory['sciezka']}")
     print(f"  Wynik narzędzia:    {chory['stan']['wyniki_narzedzi']['pogoda']}")
     print("\n  Obie odpowiedzi brzmią płynnie i pewnie. Tylko pole 'sciezka' w logu mówi,"
           "\n  że druga powstała bez prognozy — i że obiecuje coś, czego system nie wie.")
-    print("\nDalej: ćwiczenie z artykułu ->  python cwiczenie/sprawdz_pokrycie.py")
+    print("\nDalej: ćwiczenie z artykułu ->  python exercise/check_coverage.py")
 
 
 if __name__ == "__main__":

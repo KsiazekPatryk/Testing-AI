@@ -1,5 +1,5 @@
 {
-  "_instrukcja": "Tu wpisz SWOJĄ funkcję AI. Dla każdego ruchomego elementu podaj grupę (losowosc / stan / platforma) i ścieżkę klucza w Twoim logu JSONL (np. 'request.model'). Jeśli elementu nie logujesz, wpisz null. Potem: python cwiczenie/sprawdz_pokrycie.py cwiczenie/moj_inwentarz.json sciezka/do/twojego_logu.jsonl",
+  "_instrukcja": "Tu wpisz SWOJĄ funkcję AI. Dla każdego ruchomego elementu podaj grupę (losowosc / stan / platforma) i ścieżkę klucza w Twoim logu JSONL (np. 'request.model'). Jeśli elementu nie logujesz, wpisz null. Potem: python exercise/check_coverage.py exercise/my_inventory.json sciezka/do/twojego_logu.jsonl",
   "funkcja": "NAZWA TWOJEJ FUNKCJI",
   "elementy": [
     {"element": "model i jego wersja",            "grupa": "platforma", "pole_w_logu": null},

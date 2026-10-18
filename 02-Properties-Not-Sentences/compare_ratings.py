@@ -1,13 +1,13 @@
 """
-porownaj_oceny.py — ćwiczenie z części 2, krok 2: gdzie rubryka się rozjeżdża?
+compare_ratings.py — ćwiczenie z części 2, krok 2: gdzie rubryka się rozjeżdża?
 
 „Jeśli wasze oceny się rozjadą, właśnie znalazłeś miejsce,
  w którym rubryka wymaga doprecyzowania.”
 
 Użycie:
-    python porownaj_oceny.py                         # gotowy przykład: Ania vs Bartek
-    python porownaj_oceny.py oceny/ty.json oceny/kolega.json [kolejne...]
-    python porownaj_oceny.py ... --sedziowie         # dołącz automatycznych sędziów z sedzia.py
+    python compare_ratings.py                         # gotowy przykład: Ania vs Bartek
+    python compare_ratings.py ratings/ty.json ratings/kolega.json [kolejne...]
+    python compare_ratings.py ... --sedziowie         # dołącz automatycznych sędziów z judge.py
 """
 
 from __future__ import annotations
@@ -18,7 +18,7 @@ from itertools import combinations
 from pathlib import Path
 from statistics import mean, median
 
-from sedzia import sedzia_naiwny, sedzia_rubryka
+from judge import sedzia_naiwny, sedzia_rubryka
 
 TU = Path(__file__).parent
 PROG_ROZJAZDU = 2
@@ -27,8 +27,8 @@ PROG_ROZJAZDU = 2
 def main() -> None:
     argumenty = [a for a in sys.argv[1:] if not a.startswith("--")]
     z_sedziami = "--sedziowie" in sys.argv
-    pliki = [Path(a) for a in argumenty] or [TU / "oceny" / "przyklad_ania.json",
-                                             TU / "oceny" / "przyklad_bartek.json"]
+    pliki = [Path(a) for a in argumenty] or [TU / "ratings" / "example_ania.json",
+                                             TU / "ratings" / "example_bartek.json"]
     arkusze = [json.loads(p.read_text(encoding="utf-8")) for p in pliki]
     zrodla = {Path(a["plik"]).resolve() if Path(a["plik"]).is_absolute()
               else (TU / a["plik"]).resolve() for a in arkusze}

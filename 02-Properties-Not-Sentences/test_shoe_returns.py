@@ -1,13 +1,13 @@
 """
-test_zwroty.py — ten sam przykład zapisany jako testy (unittest, bez instalowania czegokolwiek).
+test_shoe_returns.py — ten sam przykład zapisany jako testy (unittest, bez instalowania czegokolwiek).
 
-Uruchom:  python -m unittest -v test_zwroty
+Uruchom:  python -m unittest -v test_shoe_returns
 """
 
 import unittest
 
-from rubryka import ocen
-from zwroty import KRYTERIA, ODPOWIEDZI, OCZEKIWANE
+from rubric import ocen
+from shoe_returns import KRYTERIA, ODPOWIEDZI, OCZEKIWANE
 
 DOBRE = ODPOWIEDZI[:3]
 ZLE = ODPOWIEDZI[3:]

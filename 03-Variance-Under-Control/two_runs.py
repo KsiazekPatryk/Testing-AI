@@ -1,8 +1,8 @@
 """
-dwa_przebiegi.py — „Dwa przebiegi zamiast jednego” z części 3.
+two_runs.py — „Dwa przebiegi zamiast jednego” z części 3.
 
-Uruchom:  python dwa_przebiegi.py            (domyślnie 300 zapytań na przebieg)
-          python dwa_przebiegi.py --n 1000
+Uruchom:  python two_runs.py            (domyślnie 300 zapytań na przebieg)
+          python two_runs.py --n 1000
 
 PRZEBIEG STABILNY:    temperatura 0, stały seed, zamrożona migawka danych, stabilne narzędzia.
                       Pytanie: czy system potrafi zrobić właściwą rzecz bez zbędnej losowości?
@@ -24,8 +24,8 @@ from pathlib import Path
 from statistics import quantiles
 from typing import Dict, List, Tuple
 
-from koperta import porownaj_koperty, zapisz, zbuduj_koperte
-from model_tokenowy import Generacja, Ustawienia, generuj
+from envelope import porownaj_koperty, zapisz, zbuduj_koperte
+from token_model import Generacja, Ustawienia, generuj
 
 TU = Path(__file__).parent
 
@@ -143,9 +143,9 @@ def main() -> None:
     print(f"\nRóżnice w kopertach obu przebiegów: {', '.join(porownaj_koperty(k_s, k_p))}")
     print("  -> To celowo dwa różne testy. Porównujesz je, żeby rozdzielić źródła awarii, nie żeby uśrednić.")
 
-    katalog = TU / "raporty"
-    zapisz(k_s, s, katalog / "przebieg_stabilny.json")
-    zapisz(k_p, p, katalog / "przebieg_produkcyjny.json")
+    katalog = TU / "reports"
+    zapisz(k_s, s, katalog / "stable_run.json")
+    zapisz(k_p, p, katalog / "production_run.json")
     print(f"\nKoperty i wyniki zapisane w {katalog.relative_to(TU)}/")
 
 

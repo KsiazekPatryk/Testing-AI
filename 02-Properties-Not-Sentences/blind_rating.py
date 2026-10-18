@@ -1,18 +1,18 @@
 """
-ocen_na_slepo.py — ćwiczenie z części 2, krok 1: ocena na ślepo.
+blind_rating.py — ćwiczenie z części 2, krok 1: ocena na ślepo.
 
 „Napisz cztery przykładowe odpowiedzi: na 10, 7, 4 i 0. Pokaż je komuś z zespołu
  bez ocen i poproś, żeby je ocenił.”
 
 Skrypt pokazuje odpowiedzi w losowej kolejności, BEZ zamierzonych ocen,
-pyta o ocenę 0–10 i zapisuje wynik do oceny/<imie>.json.
+pyta o ocenę 0–10 i zapisuje wynik do ratings/<imie>.json.
 
 Użycie:
-    python ocen_na_slepo.py                          # przykład z indykiem
-    python ocen_na_slepo.py moje_odpowiedzi.json     # Twoje własne odpowiedzi
+    python blind_rating.py                          # przykład z indykiem
+    python blind_rating.py my_answers.json     # Twoje własne odpowiedzi
 
 Każda osoba z zespołu uruchamia skrypt u siebie (albo po kolei na jednym komputerze),
-a potem porównujecie:  python porownaj_oceny.py oceny/ania.json oceny/bartek.json
+a potem porównujecie:  python compare_ratings.py ratings/ania.json ratings/bartek.json
 """
 
 from __future__ import annotations
@@ -52,7 +52,7 @@ def zapytaj_o_ocene(prompt: str) -> int:
 
 
 def main() -> None:
-    plik = Path(sys.argv[1]) if len(sys.argv) > 1 else TU / "indyk.json"
+    plik = Path(sys.argv[1]) if len(sys.argv) > 1 else TU / "turkey.json"
     dane = json.loads(plik.read_text(encoding="utf-8"))
 
     imie = input("Twoje imię (do nazwy pliku z ocenami): ").strip() or "anonim"
@@ -74,14 +74,14 @@ def main() -> None:
         print(o["tekst"])
         oceny[o["id"]] = zapytaj_o_ocene("Twoja ocena (0–10): ")
 
-    katalog = TU / "oceny"
+    katalog = TU / "ratings"
     katalog.mkdir(exist_ok=True)
     wyjscie = wolna_sciezka_wyniku(katalog, imie_pliku)
     wyjscie.write_text(json.dumps({"plik": sciezka_odpowiedzi(plik), "oceniajacy": imie, "oceny": oceny},
                                   ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"\nZapisano: {wyjscie.relative_to(TU)}")
     print("Teraz poproś drugą osobę o to samo, a potem:")
-    print(f"  python porownaj_oceny.py {wyjscie.relative_to(TU)} oceny/<druga_osoba>.json")
+    print(f"  python compare_ratings.py {wyjscie.relative_to(TU)} ratings/<druga_osoba>.json")
 
 
 if __name__ == "__main__":

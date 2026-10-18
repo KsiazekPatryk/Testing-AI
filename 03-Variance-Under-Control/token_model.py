@@ -1,5 +1,5 @@
 """
-model_tokenowy.py — miniaturowy model językowy z prawdziwym próbkowaniem.
+token_model.py — miniaturowy model językowy z prawdziwym próbkowaniem.
 
 Bez klucza API i bez internetu, ale pokrętła działają naprawdę:
 temperatura, top-p, top-k, seed i logit bias zmieniają rozkład dokładnie tak,

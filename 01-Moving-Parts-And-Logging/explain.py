@@ -1,11 +1,11 @@
 """
-wyjasnij.py — „Który ruchomy element zmienił odpowiedź?”
+explain.py — „Który ruchomy element zmienił odpowiedź?”
 
 Porównuje dwa wpisy z logu i wypisuje różnice pogrupowane na:
 LOSOWOŚĆ, STAN, PLATFORMA oraz ŚCIEŻKĘ wykonania.
 
 Użycie z linii poleceń (numery wpisów liczone od 1):
-    python wyjasnij.py logi/rozmowy.jsonl 1 2
+    python explain.py logs/conversations.jsonl 1 2
 """
 
 from __future__ import annotations

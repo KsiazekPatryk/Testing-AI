@@ -7,7 +7,7 @@
     "4-5": "Słaba, niekompletna, myląca albo ryzykowna.",
     "0-3": "Poważna awaria. Wprowadza w błąd, niebezpieczna, bezużyteczna."
   },
-  "_uwaga": "'zamierzona_ocena' to ocena autora rubryki. Skrypt ocen_na_slepo.py NIE pokazuje jej oceniającym.",
+  "_uwaga": "'zamierzona_ocena' to ocena autora rubryki. Skrypt blind_rating.py NIE pokazuje jej oceniającym.",
   "odpowiedzi": [
     {
       "id": "A",

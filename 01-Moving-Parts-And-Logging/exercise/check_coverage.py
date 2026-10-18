@@ -1,5 +1,5 @@
 """
-sprawdz_pokrycie.py — ćwiczenie z części 1.
+check_coverage.py — ćwiczenie z części 1.
 
 „Wypisz wszystkie ruchome elementy, które mogą zmienić odpowiedź.
  Potem sprawdź, ile z nich faktycznie logujesz.”
@@ -8,9 +8,9 @@ Skrypt bierze inwentarz (JSON) i prawdziwy log (JSONL), a następnie sprawdza,
 czy każdy element naprawdę występuje w logu — nie „czy myślisz, że go logujesz”.
 
 Użycie:
-    python cwiczenie/sprawdz_pokrycie.py
-        (domyślnie: inwentarz bota burzowego + logi/rozmowy.jsonl z demo.py)
-    python cwiczenie/sprawdz_pokrycie.py MOJ_INWENTARZ.json MOJ_LOG.jsonl
+    python exercise/check_coverage.py
+        (domyślnie: inwentarz bota burzowego + logs/conversations.jsonl z demo.py)
+    python exercise/check_coverage.py MOJ_INWENTARZ.json MOJ_LOG.jsonl
 """
 
 from __future__ import annotations
@@ -21,8 +21,8 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 TU = Path(__file__).parent
-DOMYSLNY_INWENTARZ = TU / "inwentarz_burza.json"
-DOMYSLNY_LOG = TU.parent / "logi" / "rozmowy.jsonl"
+DOMYSLNY_INWENTARZ = TU / "storm_bot_inventory.json"
+DOMYSLNY_LOG = TU.parent / "logs" / "conversations.jsonl"
 
 
 def jest_w_logu(wpisy: List[Dict[str, Any]], sciezka: str) -> bool:

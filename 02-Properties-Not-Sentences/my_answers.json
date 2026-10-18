@@ -1,5 +1,5 @@
 {
-  "_instrukcja": "Ćwiczenie: wpisz pytanie, na które odpowiada Twój chatbot, i cztery odpowiedzi — na 10, 7, 4 i 0. Potem: python ocen_na_slepo.py moje_odpowiedzi.json (każda osoba osobno) i python porownaj_oceny.py oceny/ty.json oceny/kolega.json",
+  "_instrukcja": "Ćwiczenie: wpisz pytanie, na które odpowiada Twój chatbot, i cztery odpowiedzi — na 10, 7, 4 i 0. Potem: python blind_rating.py my_answers.json (każda osoba osobno) i python compare_ratings.py ratings/ty.json ratings/kolega.json",
   "pytanie": "WPISZ PYTANIE UŻYTKOWNIKA",
   "skala": {
     "10": "Doskonała. Poprawna, kompletna, bezpieczna, jasna, gotowa do wydania.",

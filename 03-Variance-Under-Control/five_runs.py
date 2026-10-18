@@ -1,5 +1,5 @@
 """
-piec_uruchomien.py — ćwiczenie z części 3.
+five_runs.py — ćwiczenie z części 3.
 
 „Uruchom te same dane wejściowe pięć razy. Potem zapisz trzy listy:
   1. różnice nieszkodliwe (inne słowa, inna kolejność, inny format),
@@ -7,13 +7,13 @@ piec_uruchomien.py — ćwiczenie z części 3.
   3. ustawienia, które mogłyby zmniejszyć wariancję.”
 
 Uruchom:
-    python piec_uruchomien.py                       # 5 uruchomień, ustawienia produkcyjne
-    python piec_uruchomien.py --seed 3              # powtarzalna seria
-    python piec_uruchomien.py --n 20 --temperatura 1.2
-    python piec_uruchomien.py --top-p 0.9           # sprawdź, czy pokrętło pomaga
-    python piec_uruchomien.py --bias 48=-100 --bias 12=-100
+    python five_runs.py                       # 5 uruchomień, ustawienia produkcyjne
+    python five_runs.py --seed 3              # powtarzalna seria
+    python five_runs.py --n 20 --temperatura 1.2
+    python five_runs.py --top-p 0.9           # sprawdź, czy pokrętło pomaga
+    python five_runs.py --bias 48=-100 --bias 12=-100
 
-Raport w Markdown ląduje w raporty/, razem z pełną kopertą ewaluacji.
+Raport w Markdown ląduje w reports/, razem z pełną kopertą ewaluacji.
 """
 
 from __future__ import annotations
@@ -26,8 +26,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List
 
-from koperta import zbuduj_koperte, zapisz
-from model_tokenowy import PYTANIE, SLOTY, Ustawienia, generuj, rozklad
+from envelope import zbuduj_koperte, zapisz
+from token_model import PYTANIE, SLOTY, Ustawienia, generuj, rozklad
 
 TU = Path(__file__).parent
 DANE = {"dzien_dostawy": "w piątek"}
@@ -92,7 +92,7 @@ def main() -> None:
 
     pisz(f"# Pięć uruchomień: {PYTANIE}")
     pisz(f"Ustawienia: {u.jako_slownik()}")
-    pisz(f"Odtworzysz tę serię poleceniem: python piec_uruchomien.py --n {a.n} --seed {seed}"
+    pisz(f"Odtworzysz tę serię poleceniem: python five_runs.py --n {a.n} --seed {seed}"
          + (f" --temperatura {a.temperatura}" if a.temperatura != 0.9 else "")
          + (f" --top-p {a.top_p}" if a.top_p != 1.0 else "")
          + (f" --top-k {a.top_k}" if a.top_k else "")
@@ -152,12 +152,12 @@ def main() -> None:
     pisz("- Cena: niższa temperatura i top-p zabierają też część nieszkodliwej różnorodności (lista 1).")
 
     znacznik = datetime.now().strftime("%Y%m%d-%H%M%S")
-    raport = TU / "raporty" / f"piec_uruchomien_{znacznik}.md"
+    raport = TU / "reports" / f"five_runs_{znacznik}.md"
     raport.parent.mkdir(exist_ok=True)
     raport.write_text("\n".join(out) + "\n", encoding="utf-8")
-    zapisz(zbuduj_koperte(u, MIGAWKA, "piec_uruchomien"),
+    zapisz(zbuduj_koperte(u, MIGAWKA, "five_runs"),
            {"odpowiedzi": [g.tekst for g in runy], "problemy": [g.problemy for g in runy]},
-           TU / "raporty" / f"piec_uruchomien_{znacznik}_koperta.json")
+           TU / "reports" / f"five_runs_{znacznik}_envelope.json")
     print(f"\nRaport: {raport.relative_to(TU)}")
 
 

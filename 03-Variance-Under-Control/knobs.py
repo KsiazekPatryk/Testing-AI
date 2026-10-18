@@ -1,7 +1,7 @@
 """
-pokretla.py — ściąga z pokręteł z części 3, ale policzona na żywo.
+knobs.py — ściąga z pokręteł z części 3, ale policzona na żywo.
 
-Uruchom:  python pokretla.py
+Uruchom:  python knobs.py
 
 Dla dwóch miejsc w odpowiedzi (limit anulowania i zdanie o dostawie) pokazuje,
 jak temperatura, top-p, top-k i logit bias zmieniają prawdopodobieństwo
@@ -13,7 +13,7 @@ from __future__ import annotations
 import random
 import sys
 
-from model_tokenowy import SLOTY, Ustawienia, generuj, rozklad
+from token_model import SLOTY, Ustawienia, generuj, rozklad
 
 KONFIGURACJE = [
     ("temperatura 0 (zachłannie)", Ustawienia(temperatura=0)),

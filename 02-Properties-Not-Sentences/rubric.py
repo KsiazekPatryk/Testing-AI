@@ -1,5 +1,5 @@
 """
-rubryka.py — kryteria oceny zamiast „oczekiwany tekst == rzeczywisty tekst”.
+rubric.py — kryteria oceny zamiast „oczekiwany tekst == rzeczywisty tekst”.
 
 Kryterium opisuje WŁAŚCIWOŚĆ odpowiedzi:
   * WYMAGA   — w odpowiedzi musi pojawić się dana treść (np. „30 dni”),

@@ -1,7 +1,7 @@
 import unittest
 
-from koperta import zbuduj_koperte
-from model_tokenowy import Ustawienia
+from envelope import zbuduj_koperte
+from token_model import Ustawienia
 
 
 class TestRegresje(unittest.TestCase):

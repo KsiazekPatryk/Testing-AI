@@ -1,7 +1,7 @@
 """
-zwroty.py — przykład z artykułu: „Kupiłem buty 45 dni temu, czy mogę je zwrócić?”
+shoe_returns.py — przykład z artykułu: „Kupiłem buty 45 dni temu, czy mogę je zwrócić?”
 
-Uruchom:  python zwroty.py
+Uruchom:  python shoe_returns.py
 
 Porównuje dwa podejścia do tej samej listy odpowiedzi modelu:
   1. dokładna asercja: odpowiedź == oczekiwane zdanie,
@@ -12,7 +12,7 @@ from __future__ import annotations
 
 import sys
 
-from rubryka import Kryterium, ocen
+from rubric import Kryterium, ocen
 
 PYTANIE = "Kupiłem buty 45 dni temu, czy mogę je zwrócić?"
 OCZEKIWANE = "Nie, buty można zwrócić tylko w ciągu 30 dni."

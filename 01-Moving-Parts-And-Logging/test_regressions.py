@@ -7,7 +7,7 @@ from unittest.mock import patch
 
 import demo
 from bot import policz_werdykt
-from wyjasnij import BRAK_POLA, roznice
+from explain import BRAK_POLA, roznice
 
 
 class TestRegresje(unittest.TestCase):
@@ -26,7 +26,8 @@ class TestRegresje(unittest.TestCase):
         self.assertEqual(werdykt, "zdazymy")
 
     def test_demo_zachowuje_dotychczasowe_wpisy_logu(self):
-        katalog = demo.TU / "logi"
+        katalog = demo.TU / "logs"
+        katalog.mkdir(exist_ok=True)
         with tempfile.TemporaryDirectory(dir=katalog) as tymczasowy:
             plik = Path(tymczasowy) / "test.jsonl"
             plik.write_text("sentinel\n", encoding="utf-8")

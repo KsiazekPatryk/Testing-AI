@@ -1,5 +1,5 @@
 """
-koperta.py — „Loguj pełną kopertę”.
+envelope.py — „Loguj pełną kopertę”.
 
 Żeby „ten sam test” był naprawdę tym samym testem, zapisujemy całą kopertę ewaluacji:
 model, prompt, narzędzia, dane źródłowe, parametry dekodowania, seed, schemat,
@@ -15,7 +15,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from model_tokenowy import MODEL_ID, PYTANIE, Ustawienia
+from token_model import MODEL_ID, PYTANIE, Ustawienia
 
 WERSJA_PROMPTU = "dostawa-anulowanie-v3"
 PROMPT_SYSTEMOWY = ("Jesteś asystentem sklepu. Podawaj termin dostawy z danych, "
