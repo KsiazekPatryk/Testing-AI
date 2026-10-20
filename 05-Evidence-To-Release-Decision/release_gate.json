@@ -1,0 +1,28 @@
+{
+  "_note": "The release gate for the support assistant. Every condition protects against something different. Decided before looking at the results, not after.",
+  "change": "Support assistant: new system prompt and policy retrieval, replacing baseline v1",
+  "baseline": "data/baseline_v1.jsonl",
+  "min_cases": 100,
+  "conditions": {
+    "mean_min":                {"value": 8.0,  "protects_against": "low overall quality"},
+    "ci_lower_min":            {"value": 7.5,  "protects_against": "overconfidence from noisy samples"},
+    "share_7_or_more_min":     {"value": 0.95, "protects_against": "inconsistency"},
+    "policy_failure_rate_max": {"value": 0.02, "protects_against": "policy problems"},
+    "min_score_min":           {"value": 4,    "protects_against": "catastrophic outliers"},
+    "critical_failures_max":   {"value": 0,    "protects_against": "safety and privacy failures (hard block, no negotiation)"},
+    "latency_increase_max":    {"value": 0.10, "protects_against": "performance regressions"}
+  },
+  "slice_thresholds": {
+    "policy_edge_cases": {"mean_min": 7.0, "min_score_min": 5},
+    "spanish_support":   {"mean_min": 7.5}
+  },
+  "after_release": {
+    "canary": "5% of traffic for 7 days",
+    "production_sampling": "50 conversations a day, scored with the same rubric",
+    "rollback_triggers": {
+      "slice_mean_drop_max": 1.0,
+      "critical_failures_max": 0,
+      "policy_failure_rate_max": 0.03
+    }
+  }
+}

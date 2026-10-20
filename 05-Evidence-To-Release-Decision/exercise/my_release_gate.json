@@ -1,0 +1,25 @@
+{
+  "_instructions": "The exercise from the post: take one change you plan to ship and write its release gate in plain language by answering five questions. Replace the example answers with your own. 'evidence' is optional: point it to a gate file and a results file (JSONL, one scored case per line) to get a decision as well. Run: python exercise/check_my_gate.py",
+  "change": "Support assistant v3: new system prompt and retrieval of the returns policy",
+  "answers": {
+    "1_sample": "300 scored cases: 200 from the golden set (known edge cases and past incidents) and 100 sampled from last week's live traffic.",
+    "2_risky_slices": {
+      "policy_edge_cases": "mean at least 7.0 and no score below 5",
+      "spanish_support": "mean at least 7.5"
+    },
+    "3_hard_blockers": [
+      "any privacy leak",
+      "any invented exception to the returns policy"
+    ],
+    "4_after_release": {
+      "canary": "5% of traffic for 7 days",
+      "monitoring": "50 conversations a day scored with the same rubric, reviewed by a human every Friday",
+      "rollback": "any slice mean drops by more than 1 point, or any critical failure appears"
+    },
+    "5_signal_to_hold": "The Spanish support mean falls below 7.5 in the canary."
+  },
+  "evidence": {
+    "gate": "../release_gate.json",
+    "results": "../data/candidate_v3.jsonl"
+  }
+}
