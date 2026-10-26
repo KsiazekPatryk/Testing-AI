@@ -1,0 +1,10 @@
+{
+  "_instructions": "The exercise from the post: pick one metric you report today as a single number and add uncertainty to it. Point 'results' to a JSONL file with one result per line (or put the numbers in 'values'). kind = 'score' for scores such as 0-10, or 'pass_rate' for 1/0 results. 'fail_below' marks a score that counts as a failure. 'slice_field' is optional: the field that says which slice (language, topic, risk level) a result belongs to. Run: python exercise/add_uncertainty.py",
+  "metric": "Support assistant quality score",
+  "reported_today": "Quality score: 8.3",
+  "kind": "score",
+  "results": "../data/scores.jsonl",
+  "value_field": "score",
+  "slice_field": "slice",
+  "fail_below": 5
+}
