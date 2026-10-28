@@ -1,0 +1,18 @@
+{
+  "_note": "100 support conversations per returns policy, by outcome.",
+  "categories": [
+    "resolved automatically",
+    "escalated to a human",
+    "refused"
+  ],
+  "old_policy": [
+    70,
+    20,
+    10
+  ],
+  "new_policy": [
+    55,
+    35,
+    10
+  ]
+}

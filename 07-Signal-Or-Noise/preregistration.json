@@ -1,0 +1,13 @@
+{
+  "_note": "Written BEFORE the evaluation ran. This is what keeps p-hacking, cherry-picking and after-the-fact stories out.",
+  "written_at": "2026-10-20T09:00:00+01:00",
+  "comparison": "Old support prompt (v7) vs new support prompt (v8)",
+  "population": "Realistic customer support conversations about returns, sampled from last month's traffic",
+  "null_hypothesis": "The new prompt does not change the mean rubric score compared with the old prompt.",
+  "alternative": "The new prompt changes the mean rubric score.",
+  "metric": "Rubric score 0-10 per conversation, scored by the calibrated judge",
+  "sample": "100 test cases, each run through both prompts (paired)",
+  "test": "Paired t-test on per-case differences; Wilcoxon signed-rank as a check for ordinal scores",
+  "decision_threshold": "Ship only if the 95% CI for the improvement is above zero AND there is no new critical or policy failure",
+  "secondary_metrics": ["pass rate (score 7 or more)", "policy failures", "escalations to a human"]
+}

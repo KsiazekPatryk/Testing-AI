@@ -1,0 +1,25 @@
+{
+  "_instructions": "The exercise from the post: take the last comparison of two versions that your team called a win, and answer three questions. Fill in what you know; leave a field null if you don't know. If you have the raw results (JSONL, one line per run), point 'results' to them and the script recomputes the comparison at the level of independent cases. Run: python exercise/check_my_win.py",
+  "claim": "New prompt v8 wins: +0.11 points, p = 0.005",
+  "q1_written_before_test": {
+    "hypothesis_written_at": "2026-10-22",
+    "results_first_seen_at": "2026-10-21",
+    "metric_chosen_after_seeing_results": true
+  },
+  "q2_pairing": {
+    "same_cases_through_both_versions": true,
+    "test_used": "independent t-test on all runs"
+  },
+  "q3_independent_cases": {
+    "independent_cases": null,
+    "total_results": 4000
+  },
+  "results": {
+    "file": "../data/repeated_runs.jsonl",
+    "case_field": "prompt",
+    "version_field": "version",
+    "score_field": "score",
+    "old": "old",
+    "new": "new"
+  }
+}
