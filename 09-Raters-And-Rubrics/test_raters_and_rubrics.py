@@ -1,5 +1,5 @@
 """
-test_raters_and_rubrics.py: unit tests for folder 08.
+test_raters_and_rubrics.py: unit tests for folder 09.
 
 Reference values for kappa come from scikit-learn (not needed to run the folder);
 Fleiss' kappa was checked by hand.
