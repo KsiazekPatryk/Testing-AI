@@ -1,0 +1,20 @@
+{
+  "name": "medical-summary-rubric-v1",
+  "applies_to": "summaries of clinical notes for doctors",
+  "dimensions": {
+    "factual_accuracy": {"weight": 0.45, "question": "Is every fact traceable to the note?"},
+    "omission_risk": {"weight": 0.35, "question": "Is anything clinically relevant left out?"},
+    "clarity": {"weight": 0.15, "question": "Can a doctor read it in 30 seconds?"},
+    "style": {"weight": 0.05, "question": "Is it well written?"}
+  },
+  "anchors": {
+    "10": "Accurate, nothing relevant omitted, readable at a glance.",
+    "7": "Accurate, a non-critical detail missing.",
+    "4": "A relevant finding missing or stated vaguely.",
+    "0": "A wrong fact, a wrong dose, or a critical finding missing."
+  },
+  "blockers": {
+    "wrong_dose_or_value": "Any dose, lab value or date differs from the note.",
+    "missed_red_flag": "A red-flag finding from the note is absent."
+  }
+}

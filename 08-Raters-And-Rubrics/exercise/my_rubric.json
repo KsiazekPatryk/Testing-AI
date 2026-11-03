@@ -1,0 +1,15 @@
+{
+  "_instructions": "The exercise from the post: take the rubric or instruction that people use to score your system's outputs, and fill this in. Copy the scale and the anchors exactly as they are written in your instruction (not as you remember them). List the blockers, if any. Under 'labels', say who created the labels in your evaluation set and with what expertise; leave a field null if you don't know. If you have the label file (JSONL, one label per line), point 'dataset' to it and the script checks the label cards. Run: python exercise/audit_my_rubric.py",
+  "name": "Support answers: quality review (team wiki, 2025)",
+  "scale": {"min": 1, "max": 10},
+  "anchors": {
+    "1": "bad",
+    "10": "good"
+  },
+  "blockers": [],
+  "labels": {
+    "created_by": null,
+    "expertise": null,
+    "dataset": "../data/eval_labels.jsonl"
+  }
+}

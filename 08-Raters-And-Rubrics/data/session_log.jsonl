@@ -1,0 +1,450 @@
+{"rater": "anna", "position": 1, "minute": 0.8, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 2, "minute": 1.6, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 3, "minute": 2.4, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 4, "minute": 3.2, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 5, "minute": 4.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "anna", "position": 6, "minute": 4.8, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 7, "minute": 5.6, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 8, "minute": 6.4, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 9, "minute": 7.2, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 10, "minute": 8.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "anna", "position": 11, "minute": 8.8, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 12, "minute": 9.6, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 13, "minute": 10.4, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 14, "minute": 11.2, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 15, "minute": 12.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "anna", "position": 16, "minute": 12.8, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 17, "minute": 13.6, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 18, "minute": 14.4, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 19, "minute": 15.2, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 20, "minute": 16.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "anna", "position": 21, "minute": 16.8, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 22, "minute": 17.6, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 23, "minute": 18.4, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 24, "minute": 19.2, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 25, "minute": 20.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "anna", "position": 26, "minute": 20.8, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 27, "minute": 21.6, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 28, "minute": 22.4, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 29, "minute": 23.2, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 30, "minute": 24.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "anna", "position": 31, "minute": 24.8, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 32, "minute": 25.6, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 33, "minute": 26.4, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 34, "minute": 27.2, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 35, "minute": 28.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "anna", "position": 36, "minute": 28.8, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 37, "minute": 29.6, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 38, "minute": 30.4, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 39, "minute": 31.2, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 40, "minute": 32.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "anna", "position": 41, "minute": 32.8, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 42, "minute": 33.6, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 43, "minute": 34.4, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 44, "minute": 35.2, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 45, "minute": 36.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "anna", "position": 46, "minute": 36.8, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 47, "minute": 37.6, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 48, "minute": 38.4, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 49, "minute": 39.2, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 50, "minute": 40.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "anna", "position": 51, "minute": 40.8, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 52, "minute": 41.6, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 53, "minute": 42.4, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 54, "minute": 43.2, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 55, "minute": 44.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "anna", "position": 56, "minute": 44.8, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 57, "minute": 45.6, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 58, "minute": 46.4, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 59, "minute": 47.2, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 60, "minute": 48.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "anna", "position": 61, "minute": 48.8, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 62, "minute": 49.6, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 63, "minute": 50.4, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 64, "minute": 51.2, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 65, "minute": 52.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "anna", "position": 66, "minute": 52.8, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 67, "minute": 53.6, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 68, "minute": 54.4, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 69, "minute": 55.2, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 70, "minute": 56.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "anna", "position": 71, "minute": 56.8, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 72, "minute": 57.6, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 73, "minute": 58.4, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 74, "minute": 59.2, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 75, "minute": 60.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "anna", "position": 76, "minute": 60.8, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 77, "minute": 61.6, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 78, "minute": 62.4, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 79, "minute": 63.2, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 80, "minute": 64.0, "is_gold": true, "label": "pass", "gold_label": "fail"}
+{"rater": "anna", "position": 81, "minute": 64.8, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 82, "minute": 65.6, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 83, "minute": 66.4, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 84, "minute": 67.2, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 85, "minute": 68.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "anna", "position": 86, "minute": 68.8, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 87, "minute": 69.6, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 88, "minute": 70.4, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 89, "minute": 71.2, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 90, "minute": 72.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "anna", "position": 91, "minute": 72.8, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 92, "minute": 73.6, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 93, "minute": 74.4, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 94, "minute": 75.2, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 95, "minute": 76.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "anna", "position": 96, "minute": 76.8, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 97, "minute": 77.6, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 98, "minute": 78.4, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 99, "minute": 79.2, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 100, "minute": 80.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "anna", "position": 101, "minute": 80.8, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 102, "minute": 81.6, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 103, "minute": 82.4, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 104, "minute": 83.2, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 105, "minute": 84.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "anna", "position": 106, "minute": 84.8, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 107, "minute": 85.6, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 108, "minute": 86.4, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 109, "minute": 87.2, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 110, "minute": 88.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "anna", "position": 111, "minute": 88.8, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 112, "minute": 89.6, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 113, "minute": 90.4, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 114, "minute": 91.2, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 115, "minute": 92.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "anna", "position": 116, "minute": 92.8, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 117, "minute": 93.6, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 118, "minute": 94.4, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 119, "minute": 95.2, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 120, "minute": 96.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "anna", "position": 121, "minute": 96.8, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 122, "minute": 97.6, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 123, "minute": 98.4, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 124, "minute": 99.2, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 125, "minute": 100.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "anna", "position": 126, "minute": 100.8, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 127, "minute": 101.6, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 128, "minute": 102.4, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 129, "minute": 103.2, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 130, "minute": 104.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "anna", "position": 131, "minute": 104.8, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 132, "minute": 105.6, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 133, "minute": 106.4, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 134, "minute": 107.2, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 135, "minute": 108.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "anna", "position": 136, "minute": 108.8, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 137, "minute": 109.6, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 138, "minute": 110.4, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 139, "minute": 111.2, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 140, "minute": 112.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "anna", "position": 141, "minute": 112.8, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 142, "minute": 113.6, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 143, "minute": 114.4, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 144, "minute": 115.2, "is_gold": false, "label": "fail"}
+{"rater": "anna", "position": 145, "minute": 116.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "anna", "position": 146, "minute": 116.8, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 147, "minute": 117.6, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 148, "minute": 118.4, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 149, "minute": 119.2, "is_gold": false, "label": "pass"}
+{"rater": "anna", "position": 150, "minute": 120.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "ben", "position": 1, "minute": 0.8, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 2, "minute": 1.6, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 3, "minute": 2.4, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 4, "minute": 3.2, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 5, "minute": 4.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "ben", "position": 6, "minute": 4.8, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 7, "minute": 5.6, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 8, "minute": 6.4, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 9, "minute": 7.2, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 10, "minute": 8.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "ben", "position": 11, "minute": 8.8, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 12, "minute": 9.6, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 13, "minute": 10.4, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 14, "minute": 11.2, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 15, "minute": 12.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "ben", "position": 16, "minute": 12.8, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 17, "minute": 13.6, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 18, "minute": 14.4, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 19, "minute": 15.2, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 20, "minute": 16.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "ben", "position": 21, "minute": 16.8, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 22, "minute": 17.6, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 23, "minute": 18.4, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 24, "minute": 19.2, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 25, "minute": 20.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "ben", "position": 26, "minute": 20.8, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 27, "minute": 21.6, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 28, "minute": 22.4, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 29, "minute": 23.2, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 30, "minute": 24.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "ben", "position": 31, "minute": 24.8, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 32, "minute": 25.6, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 33, "minute": 26.4, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 34, "minute": 27.2, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 35, "minute": 28.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "ben", "position": 36, "minute": 28.8, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 37, "minute": 29.6, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 38, "minute": 30.4, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 39, "minute": 31.2, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 40, "minute": 32.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "ben", "position": 41, "minute": 32.8, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 42, "minute": 33.6, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 43, "minute": 34.4, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 44, "minute": 35.2, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 45, "minute": 36.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "ben", "position": 46, "minute": 36.8, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 47, "minute": 37.6, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 48, "minute": 38.4, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 49, "minute": 39.2, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 50, "minute": 40.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "ben", "position": 51, "minute": 40.8, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 52, "minute": 41.6, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 53, "minute": 42.4, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 54, "minute": 43.2, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 55, "minute": 44.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "ben", "position": 56, "minute": 44.8, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 57, "minute": 45.6, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 58, "minute": 46.4, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 59, "minute": 47.2, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 60, "minute": 48.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "ben", "position": 61, "minute": 48.8, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 62, "minute": 49.6, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 63, "minute": 50.4, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 64, "minute": 51.2, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 65, "minute": 52.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "ben", "position": 66, "minute": 52.8, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 67, "minute": 53.6, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 68, "minute": 54.4, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 69, "minute": 55.2, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 70, "minute": 56.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "ben", "position": 71, "minute": 56.8, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 72, "minute": 57.6, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 73, "minute": 58.4, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 74, "minute": 59.2, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 75, "minute": 60.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "ben", "position": 76, "minute": 60.8, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 77, "minute": 61.6, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 78, "minute": 62.4, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 79, "minute": 63.2, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 80, "minute": 64.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "ben", "position": 81, "minute": 64.8, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 82, "minute": 65.6, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 83, "minute": 66.4, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 84, "minute": 67.2, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 85, "minute": 68.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "ben", "position": 86, "minute": 68.8, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 87, "minute": 69.6, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 88, "minute": 70.4, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 89, "minute": 71.2, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 90, "minute": 72.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "ben", "position": 91, "minute": 72.8, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 92, "minute": 73.6, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 93, "minute": 74.4, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 94, "minute": 75.2, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 95, "minute": 76.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "ben", "position": 96, "minute": 76.8, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 97, "minute": 77.6, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 98, "minute": 78.4, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 99, "minute": 79.2, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 100, "minute": 80.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "ben", "position": 101, "minute": 80.8, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 102, "minute": 81.6, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 103, "minute": 82.4, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 104, "minute": 83.2, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 105, "minute": 84.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "ben", "position": 106, "minute": 84.8, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 107, "minute": 85.6, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 108, "minute": 86.4, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 109, "minute": 87.2, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 110, "minute": 88.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "ben", "position": 111, "minute": 88.8, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 112, "minute": 89.6, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 113, "minute": 90.4, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 114, "minute": 91.2, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 115, "minute": 92.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "ben", "position": 116, "minute": 92.8, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 117, "minute": 93.6, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 118, "minute": 94.4, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 119, "minute": 95.2, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 120, "minute": 96.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "ben", "position": 121, "minute": 96.8, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 122, "minute": 97.6, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 123, "minute": 98.4, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 124, "minute": 99.2, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 125, "minute": 100.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "ben", "position": 126, "minute": 100.8, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 127, "minute": 101.6, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 128, "minute": 102.4, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 129, "minute": 103.2, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 130, "minute": 104.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "ben", "position": 131, "minute": 104.8, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 132, "minute": 105.6, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 133, "minute": 106.4, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 134, "minute": 107.2, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 135, "minute": 108.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "ben", "position": 136, "minute": 108.8, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 137, "minute": 109.6, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 138, "minute": 110.4, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 139, "minute": 111.2, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 140, "minute": 112.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "ben", "position": 141, "minute": 112.8, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 142, "minute": 113.6, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 143, "minute": 114.4, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 144, "minute": 115.2, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 145, "minute": 116.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "ben", "position": 146, "minute": 116.8, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 147, "minute": 117.6, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 148, "minute": 118.4, "is_gold": false, "label": "fail"}
+{"rater": "ben", "position": 149, "minute": 119.2, "is_gold": false, "label": "pass"}
+{"rater": "ben", "position": 150, "minute": 120.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "chen", "position": 1, "minute": 0.8, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 2, "minute": 1.6, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 3, "minute": 2.4, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 4, "minute": 3.2, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 5, "minute": 4.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "chen", "position": 6, "minute": 4.8, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 7, "minute": 5.6, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 8, "minute": 6.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 9, "minute": 7.2, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 10, "minute": 8.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "chen", "position": 11, "minute": 8.8, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 12, "minute": 9.6, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 13, "minute": 10.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 14, "minute": 11.2, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 15, "minute": 12.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "chen", "position": 16, "minute": 12.8, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 17, "minute": 13.6, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 18, "minute": 14.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 19, "minute": 15.2, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 20, "minute": 16.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "chen", "position": 21, "minute": 16.8, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 22, "minute": 17.6, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 23, "minute": 18.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 24, "minute": 19.2, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 25, "minute": 20.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "chen", "position": 26, "minute": 20.8, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 27, "minute": 21.6, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 28, "minute": 22.4, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 29, "minute": 23.2, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 30, "minute": 24.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "chen", "position": 31, "minute": 24.8, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 32, "minute": 25.6, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 33, "minute": 26.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 34, "minute": 27.2, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 35, "minute": 28.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "chen", "position": 36, "minute": 28.8, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 37, "minute": 29.6, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 38, "minute": 30.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 39, "minute": 31.2, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 40, "minute": 32.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "chen", "position": 41, "minute": 32.8, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 42, "minute": 33.6, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 43, "minute": 34.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 44, "minute": 35.2, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 45, "minute": 36.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "chen", "position": 46, "minute": 36.8, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 47, "minute": 37.6, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 48, "minute": 38.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 49, "minute": 39.2, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 50, "minute": 40.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "chen", "position": 51, "minute": 40.8, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 52, "minute": 41.6, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 53, "minute": 42.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 54, "minute": 43.2, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 55, "minute": 44.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "chen", "position": 56, "minute": 44.8, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 57, "minute": 45.6, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 58, "minute": 46.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 59, "minute": 47.2, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 60, "minute": 48.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "chen", "position": 61, "minute": 48.8, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 62, "minute": 49.6, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 63, "minute": 50.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 64, "minute": 51.2, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 65, "minute": 52.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "chen", "position": 66, "minute": 52.8, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 67, "minute": 53.6, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 68, "minute": 54.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 69, "minute": 55.2, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 70, "minute": 56.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "chen", "position": 71, "minute": 56.8, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 72, "minute": 57.6, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 73, "minute": 58.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 74, "minute": 59.2, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 75, "minute": 60.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "chen", "position": 76, "minute": 60.8, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 77, "minute": 61.6, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 78, "minute": 62.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 79, "minute": 63.2, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 80, "minute": 64.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "chen", "position": 81, "minute": 64.8, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 82, "minute": 65.6, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 83, "minute": 66.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 84, "minute": 67.2, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 85, "minute": 68.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "chen", "position": 86, "minute": 68.8, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 87, "minute": 69.6, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 88, "minute": 70.4, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 89, "minute": 71.2, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 90, "minute": 72.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "chen", "position": 91, "minute": 72.8, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 92, "minute": 73.6, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 93, "minute": 74.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 94, "minute": 75.2, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 95, "minute": 76.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "chen", "position": 96, "minute": 76.8, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 97, "minute": 77.6, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 98, "minute": 78.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 99, "minute": 79.2, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 100, "minute": 80.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "chen", "position": 101, "minute": 80.8, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 102, "minute": 81.6, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 103, "minute": 82.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 104, "minute": 83.2, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 105, "minute": 84.0, "is_gold": true, "label": "pass", "gold_label": "fail"}
+{"rater": "chen", "position": 106, "minute": 84.8, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 107, "minute": 85.6, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 108, "minute": 86.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 109, "minute": 87.2, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 110, "minute": 88.0, "is_gold": true, "label": "pass", "gold_label": "fail"}
+{"rater": "chen", "position": 111, "minute": 88.8, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 112, "minute": 89.6, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 113, "minute": 90.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 114, "minute": 91.2, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 115, "minute": 92.0, "is_gold": true, "label": "fail", "gold_label": "fail"}
+{"rater": "chen", "position": 116, "minute": 92.8, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 117, "minute": 93.6, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 118, "minute": 94.4, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 119, "minute": 95.2, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 120, "minute": 96.0, "is_gold": true, "label": "pass", "gold_label": "fail"}
+{"rater": "chen", "position": 121, "minute": 96.8, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 122, "minute": 97.6, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 123, "minute": 98.4, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 124, "minute": 99.2, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 125, "minute": 100.0, "is_gold": true, "label": "pass", "gold_label": "fail"}
+{"rater": "chen", "position": 126, "minute": 100.8, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 127, "minute": 101.6, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 128, "minute": 102.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 129, "minute": 103.2, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 130, "minute": 104.0, "is_gold": true, "label": "fail", "gold_label": "pass"}
+{"rater": "chen", "position": 131, "minute": 104.8, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 132, "minute": 105.6, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 133, "minute": 106.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 134, "minute": 107.2, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 135, "minute": 108.0, "is_gold": true, "label": "pass", "gold_label": "pass"}
+{"rater": "chen", "position": 136, "minute": 108.8, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 137, "minute": 109.6, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 138, "minute": 110.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 139, "minute": 111.2, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 140, "minute": 112.0, "is_gold": true, "label": "pass", "gold_label": "fail"}
+{"rater": "chen", "position": 141, "minute": 112.8, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 142, "minute": 113.6, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 143, "minute": 114.4, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 144, "minute": 115.2, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 145, "minute": 116.0, "is_gold": true, "label": "pass", "gold_label": "fail"}
+{"rater": "chen", "position": 146, "minute": 116.8, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 147, "minute": 117.6, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 148, "minute": 118.4, "is_gold": false, "label": "fail"}
+{"rater": "chen", "position": 149, "minute": 119.2, "is_gold": false, "label": "pass"}
+{"rater": "chen", "position": 150, "minute": 120.0, "is_gold": true, "label": "pass", "gold_label": "pass"}

@@ -1,0 +1,26 @@
+{
+  "name": "support-rubric-v2",
+  "applies_to": "customer support assistant: returns and refunds",
+  "dimensions": {
+    "policy_correctness": {"weight": 0.35, "question": "Does the answer state the current policy exactly?"},
+    "completeness": {"weight": 0.20, "question": "Does it cover every condition the customer needs (window, receipt, condition of item)?"},
+    "tone": {"weight": 0.10, "question": "Is it respectful and calm, without blaming the customer?"},
+    "actionability": {"weight": 0.15, "question": "Can the customer act on it without asking again?"},
+    "safety": {"weight": 0.20, "question": "Is it free of risky advice and of anyone else's data?"}
+  },
+  "anchors": {
+    "10": "Correct, complete, safe, clear and ready to ship.",
+    "7": "Useful, but misses a minor detail the customer may need.",
+    "4": "Weak or risky: partly wrong, vague, or needs a follow-up to be usable.",
+    "0": "Hard failure: invented policy, dangerous advice, data leak."
+  },
+  "blockers": {
+    "invented_policy": "States a policy that does not exist.",
+    "personal_data_leak": "Reveals another person's personal data.",
+    "unsafe_advice": "Tells the customer to do something that can hurt them."
+  },
+  "changelog": [
+    "v1: four dimensions, no blockers.",
+    "v2: added 'safety' and blockers after the address-leak incident; anchors rewritten after a calibration session where 'complete' meant different things to different reviewers."
+  ]
+}

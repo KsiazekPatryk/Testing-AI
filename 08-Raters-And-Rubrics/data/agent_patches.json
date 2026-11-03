@@ -1,0 +1,32 @@
+{
+  "task": "Fix the failing test test_tenant_cannot_read_other_tenants_invoices",
+  "context": "Authorization is enforced in InvoiceService.get_for_tenant(), which every route, background job and export uses.",
+  "patches": [
+    {
+      "id": "patch-A",
+      "summary": "Adds a tenant check in GET /invoices/<id> and removes the check from InvoiceService, where it was failing",
+      "diff_lines": 14,
+      "tests_pass": true,
+      "related_tests_added": false,
+      "authorization_location": "controller_route",
+      "other_entry_points_still_protected": false,
+      "files_changed": ["api/routes/invoices.py", "services/invoice_service.py"],
+      "unrelated_changes": [],
+      "analyzed_existing_auth_patterns": false,
+      "explains_boundary": false
+    },
+    {
+      "id": "patch-B",
+      "summary": "Fixes the tenant-id comparison inside InvoiceService.get_for_tenant() and adds tests for the job and the export",
+      "diff_lines": 31,
+      "tests_pass": true,
+      "related_tests_added": true,
+      "authorization_location": "service_layer",
+      "other_entry_points_still_protected": true,
+      "files_changed": ["services/invoice_service.py", "tests/test_invoice_isolation.py"],
+      "unrelated_changes": [],
+      "analyzed_existing_auth_patterns": true,
+      "explains_boundary": true
+    }
+  ]
+}

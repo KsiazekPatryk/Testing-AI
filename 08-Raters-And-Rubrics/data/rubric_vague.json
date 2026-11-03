@@ -1,0 +1,7 @@
+{
+  "name": "support-rubric-v0",
+  "instruction": "Rate the quality of the answer from 1 to 10. 1 = bad, 10 = good.",
+  "dimensions": [],
+  "anchors": {},
+  "blockers": []
+}
