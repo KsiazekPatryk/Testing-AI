@@ -1,0 +1,27 @@
+{
+  "_instructions": "The exercise from the post: pick one comparison in front of you (two prompts, two models, two policies) and write down the test, its assumption, the decision it supports, and the minimum effect that matters. Then write what the test CANNOT tell you. Leave a field null if you don't know yet. For a score metric give the expected sd of the per-case differences; for a rate give the current rate. Run: python exercise/check_my_comparison.py",
+  "comparison": "Support prompt v7 vs v8",
+  "test": {
+    "name": "paired t-test",
+    "why": "the same 40 conversations go through both prompts"
+  },
+  "assumption": "cases are paired and independent of each other",
+  "decision": "ship v8 to all customers",
+  "minimum_effect": {
+    "metric": "mean score",
+    "kind": "score",
+    "value": 0.3,
+    "sd_of_differences": 1.2,
+    "current_rate": null
+  },
+  "sample": {
+    "independent_cases": 40,
+    "paired": true,
+    "runs_per_case": 1
+  },
+  "other_comparisons_checked": 12,
+  "high_risk_slices_checked": [],
+  "cannot_tell": [
+    "whether customers will be happier"
+  ]
+}

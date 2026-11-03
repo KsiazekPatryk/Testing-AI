@@ -1,0 +1,25 @@
+{
+  "_note": "Summary numbers for the post's examples. Means and standard deviations are per conversation or per query.",
+  "assistant_score": {
+    "description": "Support assistant, mean rubric score, a very large sample",
+    "metric": "mean score (0-10)",
+    "n_per_version": 60000, "old_mean": 8.10, "new_mean": 8.12, "sd": 1.0,
+    "guardrails": {"p95_latency_ms": [900, 1250], "cost_per_1000_conversations_usd": [4.10, 5.30]}
+  },
+  "policy_failures": {
+    "description": "New prompt, policy failures on a small sample",
+    "metric": "policy failure rate",
+    "n_per_version": 100, "old_failures": 6, "new_failures": 2
+  },
+  "search_ranking": {
+    "description": "New search ranking, mean relevance over all queries",
+    "metric": "mean relevance (0-4)",
+    "n_per_version": 200000, "old_mean": 2.61, "new_mean": 2.63, "sd": 0.8,
+    "slice": {
+      "name": "urgent child passport appointment",
+      "queries": 400,
+      "official_source_in_top_3": [220, 328],
+      "scam_page_in_top_3": [36, 4]
+    }
+  }
+}

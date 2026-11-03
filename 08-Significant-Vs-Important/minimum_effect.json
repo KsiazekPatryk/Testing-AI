@@ -1,0 +1,16 @@
+{
+  "written_at": "2026-10-20",
+  "written_before_results": true,
+  "decision": "Ship the new support prompt to all customers?",
+  "minimum_meaningful_effect": {
+    "mean score": "+0.3 points or more",
+    "policy failure rate": "20% fewer failures or more (relative)",
+    "auto refund rate": "a drop only counts if complaints and escalations do not rise"
+  },
+  "guardrails": {
+    "p95 latency": "no more than +10%",
+    "cost per conversation": "no more than +10%",
+    "high-risk slices": "no slice may get worse: orders above 3000 PLN, angry customers, urgent official matters"
+  },
+  "planned_comparisons": ["mean score", "policy failure rate", "auto refund rate", "escalations in orders above 3000 PLN"]
+}

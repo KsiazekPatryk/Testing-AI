@@ -1,0 +1,24 @@
+{
+  "fresh_tasks": 200,
+  "note": "fresh held-out set; test files are read-only for every configuration",
+  "production": {
+    "config": "cfg-000",
+    "fresh_runs_passed": [
+      166,
+      173,
+      157,
+      167,
+      166
+    ]
+  },
+  "winner": {
+    "config": "cfg-004",
+    "fresh_runs_passed": [
+      165,
+      161,
+      167,
+      166,
+      168
+    ]
+  }
+}
