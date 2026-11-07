@@ -1,0 +1,182 @@
+{
+  "queries": [
+    {
+      "query": "python list append",
+      "interpretations": {
+        "how to append an item": 0.92,
+        "append vs extend": 0.06,
+        "performance of append": 0.02
+      }
+    },
+    {
+      "query": "jaguar speed",
+      "interpretations": {
+        "the animal": 0.55,
+        "the car": 0.4,
+        "the macOS version": 0.05
+      }
+    },
+    {
+      "query": "best agent framework to replace my QA team",
+      "interpretations": {
+        "open source tool": 0.25,
+        "managed platform": 0.22,
+        "vendor comparison": 0.23,
+        "is this a good idea at all": 0.2,
+        "evidence: benchmarks and case studies": 0.1
+      }
+    }
+  ],
+  "result_sets": {
+    "vendor_wall": [
+      {
+        "title": "AI QA automation: replace your testers today (Vendor A)",
+        "kind": "vendor",
+        "covers": "managed platform",
+        "rating": 8
+      },
+      {
+        "title": "10x your QA with autonomous agents (Vendor B)",
+        "kind": "vendor",
+        "covers": "managed platform",
+        "rating": 8
+      },
+      {
+        "title": "Agentic testing for enterprises (Vendor C)",
+        "kind": "vendor",
+        "covers": "managed platform",
+        "rating": 8
+      },
+      {
+        "title": "Cut QA costs by 80% (Vendor D)",
+        "kind": "vendor",
+        "covers": "managed platform",
+        "rating": 7
+      },
+      {
+        "title": "The AI QA team that never sleeps (Vendor E)",
+        "kind": "vendor",
+        "covers": "managed platform",
+        "rating": 8
+      },
+      {
+        "title": "Fully automated QA with LLM agents (Vendor F)",
+        "kind": "vendor",
+        "covers": "managed platform",
+        "rating": 8
+      },
+      {
+        "title": "AI-first quality assurance (Vendor G)",
+        "kind": "vendor",
+        "covers": "managed platform",
+        "rating": 7
+      },
+      {
+        "title": "Ship faster without testers (Vendor H)",
+        "kind": "vendor",
+        "covers": "managed platform",
+        "rating": 8
+      },
+      {
+        "title": "Agent-based regression testing (Vendor I)",
+        "kind": "vendor",
+        "covers": "managed platform",
+        "rating": 8
+      },
+      {
+        "title": "Replace manual QA in a week (Vendor J)",
+        "kind": "vendor",
+        "covers": "managed platform",
+        "rating": 7
+      }
+    ],
+    "balanced": [
+      {
+        "title": "Open-source agent framework: official documentation",
+        "kind": "official_docs",
+        "covers": "open source tool",
+        "rating": 8
+      },
+      {
+        "title": "Managed agent platforms compared: features and pricing",
+        "kind": "comparison",
+        "covers": "vendor comparison",
+        "rating": 8
+      },
+      {
+        "title": "Benchmark: agents on real-world test maintenance tasks",
+        "kind": "benchmark",
+        "covers": "evidence: benchmarks and case studies",
+        "rating": 7
+      },
+      {
+        "title": "Why AI agents will not replace your QA team (yet)",
+        "kind": "warning",
+        "covers": "is this a good idea at all",
+        "rating": 7
+      },
+      {
+        "title": "Case study: a team that added agents to QA, and what broke",
+        "kind": "case_study",
+        "covers": "evidence: benchmarks and case studies",
+        "rating": 7
+      },
+      {
+        "title": "Managed agent platform for test automation (Vendor A)",
+        "kind": "vendor",
+        "covers": "managed platform",
+        "rating": 7
+      }
+    ],
+    "lost": [
+      {
+        "title": "AI will kill QA, and that's great (hot take)",
+        "kind": "hot_take",
+        "covers": "is this a good idea at all",
+        "rating": 4
+      },
+      {
+        "title": "QA is dead, long live QA (hot take)",
+        "kind": "hot_take",
+        "covers": "is this a good idea at all",
+        "rating": 4
+      },
+      {
+        "title": "My weekend with an agent: a thread",
+        "kind": "hot_take",
+        "covers": "open source tool",
+        "rating": 3
+      },
+      {
+        "title": "Agents are hype (hot take)",
+        "kind": "hot_take",
+        "covers": "is this a good idea at all",
+        "rating": 4
+      },
+      {
+        "title": "Managed agent platform for test automation (Vendor A)",
+        "kind": "vendor",
+        "covers": "managed platform",
+        "rating": 7
+      },
+      {
+        "title": "Platforms compared in one tweet",
+        "kind": "hot_take",
+        "covers": "vendor comparison",
+        "rating": 3
+      },
+      {
+        "title": "Benchmark: agents on real-world test maintenance tasks",
+        "kind": "benchmark",
+        "covers": "evidence: benchmarks and case studies",
+        "rating": 7
+      },
+      {
+        "title": "Open-source agent framework: official documentation",
+        "kind": "official_docs",
+        "covers": "open source tool",
+        "rating": 8
+      }
+    ]
+  }
+}

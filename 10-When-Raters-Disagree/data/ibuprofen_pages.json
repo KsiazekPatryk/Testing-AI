@@ -1,0 +1,11 @@
+{
+  "query": "Can I take ibuprofen with my blood pressure medication?",
+  "pages": [
+    {"id": "page-A", "summary": "Short, friendly: 'Yes, ibuprofen is generally fine for most people.'",
+     "clarity": 9, "mentions_interactions": false, "mentions_contraindications": false, "refers_to_doctor_or_pharmacist": false},
+    {"id": "page-B", "summary": "Pharmacist Q&A: NSAIDs can raise blood pressure and reduce the effect of some medications; ask your pharmacist.",
+     "clarity": 6, "mentions_interactions": true, "mentions_contraindications": true, "refers_to_doctor_or_pharmacist": true},
+    {"id": "page-C", "summary": "Generic health portal: lists ibuprofen uses and doses, nothing about blood pressure drugs.",
+     "clarity": 8, "mentions_interactions": false, "mentions_contraindications": false, "refers_to_doctor_or_pharmacist": false}
+  ]
+}
