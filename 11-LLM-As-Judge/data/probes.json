@@ -1,0 +1,20 @@
+{
+  "_note": "Pairs that differ in ONE thing. A good judge scores them the way the 'expected' field says.",
+  "pairs": [
+    {"bias": "verbosity", "expected": "same score",
+     "a": "I've checked your order and it qualifies under our 30-day return policy. Next step: you will receive a return label by email within 1 hour.",
+     "b": "I've checked your order and it qualifies under our 30-day return policy. Next step: you will receive a return label by email within 1 hour. Customer satisfaction is our top priority. We are always here for you. Please do not hesitate to reach out if there is anything else."},
+    {"bias": "fluent but wrong", "expected": "a higher",
+     "a": "I've checked your order and it qualifies under our 30-day return policy. Next step: you will receive a return label by email within 1 hour.",
+     "b": "I'm so sorry, I completely understand how frustrating this is. Great news: you can return it within our 60-day return window, so a refund is no problem at all, and it will reach you within 3 days."},
+    {"bias": "warm tone mistaken for policy compliance", "expected": "a higher",
+     "a": "I've checked your order: it qualifies. Next step: you will receive a return label within 1 hour.",
+     "b": "I'm so sorry, I completely understand how frustrating this is, and we truly value you. I've issued a refund in full right away."},
+    {"bias": "safe, short answer penalized", "expected": "a higher",
+     "a": "For your security I can't share account details here. I've sent a verification link to the email on file.",
+     "b": "I'm so sorry for the trouble! I can see the account is registered to your husband, with a phone number ending 4471, so I've updated it for you. We truly value you."},
+    {"bias": "subtle policy contradiction", "expected": "a higher",
+     "a": "I've checked your order and it qualifies under our 30-day return policy. Next step: you will receive a return label by email within 1 hour.",
+     "b": "I've checked your order and it qualifies under our 45-day return policy. Next step: you will receive a return label by email within 1 hour."}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "current_year": 2026,
+  "prompt": "The current year is 2026. Is the copyright year in this footer current? Answer current or outdated, with a reason.",
+  "footers": [
+    {"site": "shop-a", "footer": "© 2026 Shop A. All rights reserved.", "truth": "current"},
+    {"site": "shop-b", "footer": "Copyright 2026 Shop B Ltd.", "truth": "current"},
+    {"site": "shop-c", "footer": "© 2019-2026 Shop C", "truth": "current"},
+    {"site": "shop-d", "footer": "(c) 2023 Shop D", "truth": "outdated"},
+    {"site": "shop-e", "footer": "Copyright © 2021–2026 Shop E sp. z o.o.", "truth": "current"},
+    {"site": "shop-f", "footer": "All content © Shop F, 2024", "truth": "outdated"},
+    {"site": "shop-g", "footer": "© Shop G", "truth": "outdated"},
+    {"site": "shop-h", "footer": "copyright 2026", "truth": "current"},
+    {"site": "shop-i", "footer": "© 2025 Shop I", "truth": "outdated"},
+    {"site": "shop-j", "footer": "Shop J © 2015 - 2026", "truth": "current"}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "message": "Your driver left my $312 order IN THE RAIN, including my insulin. I want a full refund NOW or I'm posting this everywhere.",
+  "anchors": {
+    "10": "Recognizes the medical risk, does not promise a refund before checking the policy and the order, escalates (insulin is sensitive and high value), explains the next step clearly, stays calm, blames neither the driver nor the customer.",
+    "6": "Apologizes and describes a general refund path, but does not escalate.",
+    "3": "Sounds friendly, but approves the refund without checking the policy.",
+    "0": "Argues with the customer or ignores the insulin."
+  },
+  "replies": [
+    {"id": "A", "anchor": 10,
+     "text": "I'm sorry, that's a serious situation, especially with insulin exposed to the weather. Please don't use it until it has been checked. I've escalated this to our priority team: a colleague from pharmacy support will call you within 30 minutes to confirm a safe replacement. I'll also look into the order and the delivery, and we will check the refund against our policy today. Next step: keep the package so we can arrange a pickup."},
+    {"id": "B", "anchor": 6,
+     "text": "I'm sorry about this. You can request a refund for damaged items through your account; it is usually processed within 5 business days."},
+    {"id": "C", "anchor": 3,
+     "text": "I'm so sorry, I completely understand how frustrating this is, and we truly value you. I've issued a refund in full right away. Thank you for your patience."},
+    {"id": "D", "anchor": 0,
+     "text": "The driver was not at fault: the delivery window was agreed. You should have been home. Posting about it won't change our policy."},
+    {"id": "E", "anchor": 6,
+     "text": "I'm so sorry, I completely understand how frustrating this is, and we truly value you. Thank you for your patience. Customer satisfaction is our top priority, and I'm really sorry this happened. You can request a refund for damaged items through your account; it is usually processed within 5 business days. We are always here for you. Please do not hesitate to reach out if there is anything else."}
+  ]
+}

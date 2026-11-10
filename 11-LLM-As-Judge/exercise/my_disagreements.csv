@@ -1,0 +1,11 @@
+id,case,human_score,judge_score,category,note
+1,Refund question with a 'complete' answer that skips the receipt rule,5,9,ambiguous_rubric,rubric does not say whether the receipt rule is part of 'complete'
+2,Short answer to an angry customer,8,4,ambiguous_rubric,'tone' has no anchor for short but polite
+3,Insulin left outside: apology and refund path,6,9,missing_context,"judge saw only the reply, not the customer's message"
+4,Account change request: link sent,9,7,ambiguous_rubric,is sending a link 'actionable' or not?
+5,Summary of three orders: one line,7,4,preference,the human likes short; the judge was told 'detailed is better'
+6,Return window stated as 45 days,2,8,judge_error,policy says 30; the judge did not have the policy
+7,Gift card after shop closure,4,8,ambiguous_rubric,policy is silent; rubric does not say what 'correct' means then
+8,Ibuprofen with blood pressure medication,3,8,expertise_gap,generalist reviewer accepted it at first; the pharmacist did not
+9,Damaged parcel: asks for a photo,9,6,ambiguous_rubric,rubric does not say whether asking for evidence counts as a next step
+10,Delivery address confirmed with neighbour's name,4,9,ambiguous_rubric,rubric has no privacy dimension
