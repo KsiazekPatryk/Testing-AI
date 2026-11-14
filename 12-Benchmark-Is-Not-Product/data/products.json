@@ -1,0 +1,77 @@
+{
+  "products": {
+    "support_chatbot": {
+      "description": "customer support assistant for returns and refunds",
+      "unit_of_work": "conversation",
+      "population": "real customer questions: returns, refunds, damaged items, angry customers",
+      "oracle_needed": [
+        "policy rules",
+        "rubric",
+        "human review"
+      ],
+      "must_aggregate": [
+        "blockers",
+        "escalations",
+        "rare failures",
+        "cost",
+        "latency"
+      ],
+      "decision": "ship the new model for all support traffic",
+      "comparable_units": [
+        "one answer pair",
+        "one answer"
+      ],
+      "oracle_keywords": [
+        "human",
+        "rubric",
+        "policy"
+      ]
+    },
+    "search": {
+      "description": "product search for an online shop",
+      "unit_of_work": "ranked list",
+      "population": "real queries, including ambiguous and fresh ones",
+      "oracle_needed": [
+        "relevance labels",
+        "freshness",
+        "duplicates"
+      ],
+      "must_aggregate": [
+        "position-weighted relevance",
+        "slices",
+        "latency"
+      ],
+      "decision": "replace the reranker",
+      "comparable_units": [],
+      "oracle_keywords": [
+        "relevance",
+        "human"
+      ]
+    },
+    "coding_agent": {
+      "description": "agent that fixes issues in our payment service",
+      "unit_of_work": "patch",
+      "population": "our repositories, our stack, our deployment pipeline",
+      "oracle_needed": [
+        "unit tests",
+        "integration tests",
+        "human review"
+      ],
+      "must_aggregate": [
+        "blockers",
+        "security",
+        "rare failures",
+        "cost"
+      ],
+      "decision": "let the agent open pull requests on the payment service",
+      "comparable_units": [
+        "one patch",
+        "one function"
+      ],
+      "oracle_keywords": [
+        "tests",
+        "human"
+      ]
+    }
+  }
+}

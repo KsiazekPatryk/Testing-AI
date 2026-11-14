@@ -1,0 +1,15 @@
+{
+  "_instructions": "The exercise from the post: take one public result that came up recently when your team discussed which model to choose, and answer the six questions. Then write, in one sentence, which case from your product should replace this benchmark in your evaluation. Leave an answer null if you don't know. 'matches_product' is your honest yes/no for questions 1-4.",
+  "result": "Model Y scores 72% on SWE-bench Verified, 9 points above our current model",
+  "our_product": "coding agent that fixes issues in our payment service",
+  "our_decision": "let the agent open pull requests on the payment service",
+  "six_questions": {
+    "1_unit_of_work": {"answer": "one patch for one issue in a popular open-source Python repository", "matches_product": true},
+    "2_population": {"answer": "public GitHub issues with tests, mostly small bug fixes", "matches_product": false},
+    "3_oracle": {"answer": "tests tied to the issue", "matches_product": false},
+    "4_aggregation": {"answer": "share of issues resolved; no security, review or rollout signal", "matches_product": false},
+    "5_contamination": {"answer": null},
+    "6_changes_the_decision": {"answer": null}
+  },
+  "replacement_case": "Migrate the certificate library in the payment service before Friday, graded on the renewed certificate, retry idempotency and a reviewable rollout plan."
+}
