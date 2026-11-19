@@ -1,0 +1,31 @@
+{
+  "_note": "Evaluation packages for the search dashboard. A package is everything that makes up one measurement.",
+  "packages": {
+    "search-eval-v14": {
+      "product_version": "search-2026.11.0", "ranking": "ranker-7", "prompt": "answer-v22", "model": "gen-m-2026-09",
+      "dataset": "queries-v14 (120 queries)", "query_set": "all 120", "expected_results": "expected-2026-08",
+      "labels": "labels-v14", "rubric": "citations: must cite the primary source",
+      "judge": "judge-model-2026-06", "retrieval_snapshot": "search-dump-2026-08-30", "scorer_code": "scorer@4f1a2c",
+      "data_governance": {"contains_real_user_queries": true, "who_can_view": ["search-eval team"],
+                          "who_can_edit": ["eval owners"], "retention": "12 months"}
+    },
+    "search-eval-v15": {
+      "product_version": "search-2026.11.0", "ranking": "ranker-7", "prompt": "answer-v22", "model": "gen-m-2026-09",
+      "dataset": "queries-v15", "query_set": "108 queries (12 disputed hard queries removed)",
+      "expected_results": "expected-2026-11", "labels": "labels-v15",
+      "rubric": "citations: any supporting source", "judge": "judge-model-2026-11",
+      "retrieval_snapshot": "search-dump-2026-11-17", "scorer_code": "scorer@4f1a2c",
+      "data_governance": {"contains_real_user_queries": true, "who_can_view": null,
+                          "who_can_edit": ["anyone with repo access"], "retention": null}
+    }
+  },
+  "nights": [
+    {"date": "2026-11-12", "package": "search-eval-v14", "score": 77.5},
+    {"date": "2026-11-13", "package": "search-eval-v14", "score": 78.3},
+    {"date": "2026-11-14", "package": "search-eval-v14", "score": 77.9},
+    {"date": "2026-11-15", "package": "search-eval-v14", "score": 78.6},
+    {"date": "2026-11-16", "package": "search-eval-v14", "score": 78.3},
+    {"date": "2026-11-17", "package": "search-eval-v15", "score": 86.1},
+    {"date": "2026-11-18", "package": "search-eval-v15", "score": 85.7}
+  ]
+}

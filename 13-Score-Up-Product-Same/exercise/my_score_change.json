@@ -1,0 +1,10 @@
+{
+  "_instructions": "The exercise from the post: take the last score increase on your evaluation dashboard and write two lists: what changed in the product, and what changed in the measuring instrument (dataset, labels, rubric, judge, data). If the second list is not empty, the increase needs to be re-checked on a comparable package. If you have the package manifests, point 'packages' to them and the script fills the lists in from the diff.",
+  "dashboard": "Search quality (nightly)",
+  "score_before": 78.3,
+  "score_after": 86.1,
+  "what_the_team_believes": "the new ranking worked",
+  "product_changes": ["new ranking"],
+  "measurement_changes": [],
+  "packages": {"file": "../data/packages.json", "before": "search-eval-v14", "after": "search-eval-v15"}
+}

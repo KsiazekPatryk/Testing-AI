@@ -1,0 +1,8 @@
+{
+  "authorized_by": "Head of Security, ticket SEC-2041",
+  "approved_environments": ["staging-redteam"],
+  "test_accounts_only": true,
+  "written_rules": "No real customer accounts, no real payments, no messages to real people. Stop and report on any finding of severity 'critical'.",
+  "people_who_know": ["security on-call", "payments on-call", "support lead"],
+  "valid_until": "2026-12-31"
+}
