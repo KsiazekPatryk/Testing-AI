@@ -1,0 +1,13 @@
+{
+  "_about": "Criterion scores (0-1) of two candidate versions of the shop chatbot, from the same evaluation run. Candidate A is the example from the post.",
+  "run_at": "2026-11-09",
+  "candidates": {
+    "A": {"correctness": 0.90, "grounding": 0.80, "policy": 1.00, "tone": 0.70, "escalation": 0.60, "resolution": 0.80},
+    "B": {"correctness": 0.82, "grounding": 0.78, "policy": 0.95, "tone": 0.95, "escalation": 0.55, "resolution": 0.85}
+  },
+  "proposed_after_results": {
+    "_about": "Sent on the day after the run by someone who preferred how B sounds: 'tone matters more than we thought'.",
+    "proposed_at": "2026-11-10",
+    "weights": {"correctness": 0.20, "grounding": 0.10, "policy": 0.20, "tone": 0.30, "escalation": 0.10, "resolution": 0.10}
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_about": "A benchmark against similar products. Products are fictional. The method is written down first: who is in the group, which tasks, how it was measured, and what the comparison cannot control.",
+  "method": {
+    "peer_group": "20 consumer shopping apps with a chat assistant, available in Poland and Germany, at least 100k installs; chosen on 2026-10-05 before any measurement",
+    "tasks": ["log in", "ask for a refund on a delivered order", "make a small change to an order via the agent", "trigger an error (expired card)"],
+    "measurement": "same phone model, same Wi-Fi throttled to a 4G profile, median of 5 runs, 2026-10-12 to 2026-10-16",
+    "not_controlled": ["server load and traffic at the time of the run", "A/B tests the peers may be running", "legal requirements that differ by country", "app versions changing during the week"]
+  },
+  "us": "our app",
+  "numeric": {
+    "login_s": {"label": "login screen load time", "unit": "s", "lower_is_better": true, "us": 4.2,
+                "peers": [0.9, 1.1, 1.3, 1.2, 0.8, 1.4, 1.0, 1.1, 1.3, 0.9, 1.2, 1.4, 1.0, 1.1, 0.7, 1.3, 1.2, 1.4, 1.0, 1.1],
+                "sounds_like": "4 seconds, good enough"},
+    "refund_resolution": {"label": "refund cases resolved by the assistant", "unit": "%", "lower_is_better": false, "us": 72,
+                          "peers": [88, 91, 85, 89, 87, 90, 84, 88, 86, 92],
+                          "peer_note": "measured for the 10 peers that let a test account file refunds",
+                          "sounds_like": "almost three quarters, decent"},
+    "tool_calls": {"label": "tool calls for a small order change", "unit": "calls", "lower_is_better": true, "us": 12,
+                   "peers": [4, 5, 4, 6, 4],
+                   "peer_note": "measured for the 5 peers whose assistant can change orders",
+                   "sounds_like": "it gets there, fine"}
+  },
+  "features": {
+    "clear_error_message": {"label": "a clear message when the card has expired", "us": false, "peers_with": 20},
+    "visible_support_contact": {"label": "a visible way to reach a person", "us": false, "peers_with": 20},
+    "order_history_in_chat": {"label": "order history available inside the chat", "us": true, "peers_with": 14}
+  },
+  "dictionary_app": {
+    "_about": "The post's example: a dictionary app that loads the whole dictionary instead of single entries.",
+    "metric": "time to first lookup on a cold start (s)",
+    "apps": {"our dictionary": 6.8, "Peer A": 0.7, "Peer B": 0.9, "Peer C": 0.6, "Peer D": 1.1},
+    "cause": "on start, our app downloads and parses the whole 38 MB dictionary; the peers fetch one entry (~4 KB) per lookup"
+  },
+  "requirements": {
+    "_about": "'Competitors do it' is one source of evidence. Keep it apart from 'users need it' and 'the law requires it'.",
+    "clear_error_message": {"competitors": "20 of 20", "users": "3rd most common complaint in support tickets (Q3)", "law": null},
+    "visible_support_contact": {"competitors": "20 of 20", "users": "usability study: 6 of 8 could not find help", "law": "consumer law requires a way to contact the trader (check per market)"},
+    "pre_ticked_marketing_consent": {"competitors": "17 of 20", "users": "no evidence users want it", "law": "under the GDPR a pre-ticked box is not valid consent (CJEU, Planet49, 2019)"},
+    "infinite_product_carousel_in_chat": {"competitors": "12 of 20", "users": "no evidence either way", "law": null}
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_about": "The quality metric for the shop chatbot, written down and frozen BEFORE anyone saw the candidates' results. The fingerprint is the hash of the weights at freezing time: if the weights change later, the fingerprint no longer matches.",
+  "metric": "shop-chatbot-quality",
+  "owner": "support-quality team",
+  "frozen_at": "2026-11-02",
+  "frozen_fingerprint": "9edd25131dc8",
+  "criteria": {
+    "correctness": "The facts in the reply are right (order status, prices, policy terms).",
+    "grounding": "Every claim can be traced to a source: the order system, the help center, the policy.",
+    "policy": "The reply follows the shop's policies (refunds, privacy, what the bot may promise).",
+    "tone": "Polite, calm, on brand.",
+    "escalation": "Hands over to a person when it should, with the context the person needs.",
+    "resolution": "The customer's problem is actually solved at the end of the conversation."
+  },
+  "weights": {
+    "correctness": 0.30,
+    "grounding": 0.20,
+    "policy": 0.20,
+    "tone": 0.10,
+    "escalation": 0.10,
+    "resolution": 0.10
+  },
+  "release_threshold": 0.70,
+  "blockers": {
+    "_about": "Blockers sit OUTSIDE the average. Any failed blocker check stops the release, whatever the weighted score.",
+    "high_risk_order": {
+      "applies_when": "the customer reports a safety risk (allergy, medication, child safety) on an order that has not shipped yet",
+      "checks": {
+        "recognized_risk": "the system recognized the safety risk",
+        "checked_order_status": "the system looked up the order before answering",
+        "used_right_tool": "the system called the tool that removes the item or cancels the order",
+        "escalated_when_tool_failed": "if a tool failed or timed out, the system escalated to a person as urgent",
+        "confirmed_final_state": "the system read the order again and told the customer its final state"
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_instructions": "The exercise from the post: treat your evaluation suite like a product and audit it. Replace the example answers with your own. Dates are YYYY-MM-DD. If the answer to the last question is 'no', you have decoration, not an evaluation.",
+  "suite": "Support chatbot nightly evaluation (example)",
+  "audit_date": "2026-11-22",
+  "max_days_without_review": 180,
+
+  "1_owner": "",
+
+  "2_versioned": {"dataset": true, "labels": true, "rubric": false, "judge": false},
+
+  "3_case_groups": [
+    {"group": "refunds", "cases": 120, "last_reviewed": "2026-09-30"},
+    {"group": "shipping delays", "cases": 80, "last_reviewed": "2025-08-14"},
+    {"group": "summer promotion (ended 2025-09-01)", "cases": 40, "last_reviewed": "2025-06-02"}
+  ],
+
+  "4_leakage": {
+    "cases_are_public": false,
+    "times_used_to_tune_prompts_or_models": 31,
+    "untouched_holdout_exists": false
+  },
+
+  "5_metric_vs_users": {
+    "metric": "average helpfulness 1-5 from an LLM judge",
+    "what_users_experience": "whether the problem got solved, and how long it took",
+    "same_thing": false
+  },
+
+  "6_can_change_release": {
+    "answer": false,
+    "last_time_it_changed_a_decision": null
+  }
+}

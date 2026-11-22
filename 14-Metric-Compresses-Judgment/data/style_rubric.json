@@ -1,0 +1,35 @@
+{
+  "_about": "Aesthetic quality is subjective, but it can be organized: name what good work looks like, fit it to the context, anchor the scale, and add negative examples. Without negative examples a rubric rewards the average.",
+  "dimensions": {
+    "text": ["clarity", "voice", "pace", "density", "specificity"],
+    "graphics": ["composition", "hierarchy", "contrast", "alignment", "spacing"]
+  },
+  "anchors": {
+    "10": "can be published without edits",
+    "7": "solid, but bland",
+    "4": "understandable, but not in the brand's style",
+    "1": "embarrassing or harmful to the brand"
+  },
+  "negative_examples": {
+    "generic": ["i hope this helps", "in today's fast-paced world", "it's important to note", "don't hesitate to reach out", "we value your"],
+    "salesy": ["amazing", "incredible", "best-in-class", "act now", "you'll love"],
+    "overconfident": ["definitely", "guaranteed", "100%", "there is no risk", "nothing to worry about"],
+    "alarming": ["urgent", "dangerous", "immediately", "alarming"]
+  },
+  "too_dense": {"max_words_per_sentence": 28},
+  "contexts": {
+    "consumer": {
+      "about": "A consumer reply can be warm and even surprising.",
+      "forbidden": ["generic", "overconfident"], "max_exclamations": 1, "needs_hedge": false
+    },
+    "medical": {
+      "about": "A medical report is calm and precise. Style must not suggest more certainty than the model has, and must not cause panic.",
+      "forbidden": ["generic", "salesy", "overconfident", "alarming"], "max_exclamations": 0, "needs_hedge": true,
+      "hedges": ["may", "can", "does not make a diagnosis", "your doctor"]
+    },
+    "finance_dashboard": {
+      "about": "A finance dashboard puts readability above novelty.",
+      "min_text_contrast": 4.5, "max_series_colours": 6
+    }
+  }
+}

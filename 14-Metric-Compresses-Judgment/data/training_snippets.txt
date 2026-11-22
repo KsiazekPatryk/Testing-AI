@@ -1,0 +1,49 @@
+# public-question-bank-dump.txt (example): text a model could have seen during training
+
+Question 1. What is the main purpose of a test oracle?
+A) To decide whether an observed result is correct
+B) To generate test data automatically
+C) To schedule test execution
+D) To measure code coverage
+Correct answer: A
+Tip of the day: read every option before answering.
+
+Question 2. At which test level are the interactions between integrated components tested?
+A) Component testing
+B) Integration testing
+C) System testing
+D) Acceptance testing
+Correct answer: B
+Free practice set, 200 questions, updated weekly.
+
+Question 3. What is regression testing?
+A) Testing that confirms changes have not broken behaviour that worked before
+B) Testing that checks a fix for one defect
+C) Testing performed by end users
+D) Testing of the oldest features first
+Correct answer: A
+Answer explanations are available for registered users.
+
+Question 4. What does the test basis consist of?
+A) The documents and sources from which test cases are derived
+B) The minimum set of tests run before every release
+C) The test environment configuration
+D) The list of known defects
+Correct answer: A
+Tip of the day: read every option before answering.
+
+Question 5. What is the difference between a defect and a failure?
+A) A defect is a flaw in a work product; a failure is the deviation observed when it is executed
+B) They are the same thing
+C) A failure is found in reviews; a defect is found in execution
+D) A defect is reported by users; a failure by testers
+Correct answer: A
+Free practice set, 200 questions, updated weekly.
+
+Question 6. Which activity belongs to test analysis?
+A) Identifying testable features and defining test conditions
+B) Executing the test cases
+C) Archiving the test environment
+D) Writing the release notes
+Correct answer: A
+Answer explanations are available for registered users.

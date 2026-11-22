@@ -1,0 +1,51 @@
+{
+  "_about": "Outputs that are all factually correct. The question is whether they are good enough to send.",
+  "texts": {
+    "refund_salesy": {
+      "context": "consumer", "facts": ["14 days", "original payment method"],
+      "text": "Amazing news!!! In today's fast-paced world, returns can be stressful, but we've definitely got you covered 100%! You can return your item within 14 days and the refund goes back to your original payment method. It's important to note that you'll love how easy it is. Don't hesitate to reach out! I hope this helps!"
+    },
+    "refund_plain": {
+      "context": "consumer", "facts": ["14 days", "original payment method"],
+      "text": "Good news: you can still return it. You have 14 days from delivery, and the refund goes back to your original payment method, usually within 5 working days. Start the return from your order page, and I can send you the label now if you like."
+    },
+    "refund_dense": {
+      "context": "consumer", "facts": ["14 days", "original payment method"],
+      "text": "In accordance with the applicable returns policy for items purchased through the online store, which covers all standard merchandise except for the excluded categories listed in the terms, you may return the item within 14 days of the delivery date provided it is unused, and once the returned item has been received and inspected by the warehouse the refund will be issued to the original payment method used at checkout."
+    },
+    "ldl_alarming": {
+      "context": "medical", "facts": ["162 mg/dL", "130 mg/dL"],
+      "text": "Urgent! Your LDL cholesterol is 162 mg/dL, above the reference of 130 mg/dL. This is definitely dangerous and you must act immediately."
+    },
+    "ldl_soothing": {
+      "context": "medical", "facts": ["162 mg/dL", "130 mg/dL"],
+      "text": "Your LDL cholesterol is 162 mg/dL, a bit above the 130 mg/dL reference, but there is nothing to worry about. Lots of people have numbers like this."
+    },
+    "ldl_warm": {
+      "context": "medical", "facts": ["162 mg/dL", "130 mg/dL"],
+      "text": "Thanks for checking in! Your LDL cholesterol is 162 mg/dL, above the lab's reference of 130 mg/dL. One result does not make a diagnosis. Your doctor can tell you what it means together with your other results."
+    },
+    "ldl_calm": {
+      "context": "medical", "facts": ["162 mg/dL", "130 mg/dL"],
+      "text": "Your LDL cholesterol is 162 mg/dL. The lab's reference is below 130 mg/dL, so this result is above it. One result does not make a diagnosis. Your doctor can tell you what it means together with your other results and history."
+    }
+  },
+  "dashboards": {
+    "revenue_v1": {
+      "numbers_correct": true,
+      "background": "#FFFFFF",
+      "text": {"title": "#202124", "body": "#9AA0A6", "axis_labels": "#BDBDBD", "legend": "#8AB4F8"},
+      "series_colours": ["#E53935", "#D81B60", "#8E24AA", "#5E35B1", "#3949AB", "#1E88E5", "#00ACC1", "#43A047", "#FDD835"],
+      "headings": ["h1", "h3", "h3", "h5"],
+      "charts": [{"id": "revenue", "alt_text": ""}, {"id": "margin", "alt_text": ""}, {"id": "regions", "alt_text": "Revenue by region"}]
+    },
+    "revenue_v2": {
+      "numbers_correct": true,
+      "background": "#FFFFFF",
+      "text": {"title": "#202124", "body": "#3C4043", "axis_labels": "#5F6368", "legend": "#3C4043"},
+      "series_colours": ["#1A73E8", "#E8710A", "#188038", "#A142F4", "#5F6368"],
+      "headings": ["h1", "h2", "h2", "h3"],
+      "charts": [{"id": "revenue", "alt_text": "Revenue by month, up 6% year on year"}, {"id": "margin", "alt_text": "Gross margin by month, flat at 41%"}, {"id": "regions", "alt_text": "Revenue by region, North largest at 38%"}]
+    }
+  }
+}
